@@ -1,326 +1,4 @@
 ls
-gcc lseek.c 
-ls
-rm a.out
-ls
-clear
-gcc lseek.c -o lseek
-ls
-./lseek 
-./lseek < /tmp/testfile
-/tmp/testfile | ./lseek 
-ls
-clear
-l
-vi lseek2
-ls
-vi lseek2.c
-gcc lseek2.c -o lseek2
-ls
-./lseek2
-ls
-vi file.hole 
-cat file.hole 
-vi file.hole 
-clear
-ls
-vi lseek2
-vi lseek2.c
-ls
-ls
-cd ..
-ls
-git status
-vi .bash_history 
-vi .cache/
-vi .local/
-vi .bash_profile 
-vi .bash_profile 
-gs
-gs
-clear
-ls
-gs
-gc
-ls
-clear
-ls
-mkdir lab02
-cd lab02/
-ls
-cp /tmp/test.txt test.txt
-ls
-cp /tmp/test.txt test.txt
-ls
-cd ..
-ls
-cd chap03/
-ls
-ls
-ls
-ls -al
-clear
-ls
-vi dup.c
-gcc dup.c 
-ls
-vi dup.c 
-gcc dup.c -o dup
-clear
-ls
-vi dup.c 
-ls
-gcc dup.c -o dup
-l
-ls
-clear
-ls
-vi access.c
-gcc access.c 
-ls
-vi access.c 
-gcc access.c 
-vi access.c 
-gcc access.c 
-vi access.c 
-gcc access.c 
-clear
-gcc access.c -o access.c 
-gcc access.c -o access
-ls
-rm -rf a.out 
-ls
-clear
-ls
-./access 
-clear
-l
-ls
-./access 
-clear
-l
-ls
-ls
-vi newfile 
-vi sample
-./access ./sample 
-clear
-ls
-cd /
-ls
-ls -al
-clear
-ls
-exit
-clear
-ls
-cd lab01
-ls
-vi copy.c 
-ls
-gcc copy.c 
-ls
-./a.out
-ls
-vi bfile 
-vi afile 
-vi bfile 
-ls -al
-clear
-ls
-cd lab01/
-ls
-ls
-clear
-ls
-./a.out 
-vi bfile 
-vi copy.c 
-gcc copy.c 
-./a.out 
-vi copy.c 
-gcc copy.c 
-./a.out 
-vi copy.c 
-gcc copy.c 
-./a.out 
-vi copy.c 
-vi bfile 
-vi a.out 
-vi copy.c 
-vi a.out 
-gcc copy.c 
-./a.out 
-clear
-l
-ls
-rm a.out 
-ls
-gcc copy.c -o copy
-ls
-./copy 
-vi copy
-rm copy
-vi copy.c 
-gcc copy.c 
-vi copy.c 
-vi copy.c 
-gcc copy.c 
-vi copy.c 
-gcc copy.c 
-vi copy.c 
-gcc copy.c 
-vi copy.c 
-./a.out 
-vi copy.c 
-vi copy.c 
-gcc copy.c 
-./a.out 
-vi copy.c 
-vi afile 
-./a.out 
-vi bfile 
-ll
-vi copy.c 
-rm bfile 
-./a.out 
-vi bfile 
-ls
-vi bfile 
-vi copy.c 
-rm bfile 
-ls
-vi afile 
-rm a.out 
-ls
-gcc copy.c 
-vi copy.c 
-gcc copy.c 
-./a.out 
-ls
-vi bfile 
-vi afile 
-vi copy.c 
-ls
-rm bfile ./a.out 
-ls
-vi afile 
-gcc copy.c 
-ls
-./a.out 
-ls
-vi bfile 
-rm bfile 
-ls
-rm a.out 
-ls
-vi copy.c 
-vi afile 
-gcc copy.c 
-./a.out 
-vi copy.c 
-ls
-vi bfile 
-rm bfile 
-ls
-rm ./a.out 
-vi afile 
-vi copy.c 
-gcc copy.c 
-./a.out 
-ls
-vi bfile 
-ll
-vi copy.c 
-gcc copy.c 
-vi copy.c 
-gcc copy.c 
-./a.out 
-vi copy.c 
-gcc copy.c 
-./a.out 
-ls
-vi bfile 
-vi copy.c 
-vi copy.c 
-gcc copy.c 
-vi copy.c 
-gcc copy.c 
-./a.out 
-vi copy.c 
-ls
-clear
-ls
-rm bfile 
-ls
-rm ./a
-rm ./a.out 
-ls
-gcc copy.c 
-ls
-./a.out 
-ls
-vi bfile 
-vi copy.c 
-gcc copy.c 
-vi copy.c 
-gcc copy.c 
-./a.out 
-vi afile 
-vi copy.c 
-vi afile 
-vi copy.c 
-vi afile 
-gcc copy.c 
-./a.out 
-vi copy.c 
-vi afile 
-./a.out 
-vi copy.c 
-ls
-rm bfile ./a.out 
-ls
-gcc copy.c 
-./a.out 
-ls -al
-vi bfile 
-vi afile 
-ls
-rm -rf bfile 
-ls
-vi afile 
-./a.out 
-ls
-vi bfile 
-ls
-clear
-ls
-vi copy.c 
-ls
-rm bfile 
-rm ./a.out 
-ls
-clear
-ls
-ll
-gs
-clear
-l
-l
-ll
-clear
-ll
-gcc copy.c -o copy
-./copy 
-ls
-vi copy
-vi bfile 
-clear
-ls
-rm bfile 
-ls
-vi afile 
-ls
 ./copy 
 ls
 vi bfile 
@@ -498,3 +176,325 @@ gcc stat.c
 ls
 ./a.out testfile
 exit
+clear
+ls
+mkdir chap04
+cd chap04
+ls
+vi link.c
+gcc link.c 
+vi link.c 
+gcc link.c 
+ls
+ll
+./a.out 
+ls
+ll
+vi link.c 
+ls
+cd ..
+ls
+gs
+ga
+gs
+git add -A
+ls
+gs
+clear
+git commit -m "Update exercises"
+git push
+ls
+ls -al
+clear
+ls
+ls -al
+vi .git
+vi .gitconfig 
+git push
+git config --global push.default matching
+git push
+clear
+ls -l /dev
+clear
+ls
+umask
+clear
+umask
+ls
+clear
+l
+ls
+mkdir lab04
+ls
+cd lab04
+ls
+ls
+vi mv.c
+clear
+ls
+cd ..
+ls
+cd lab03/
+ls
+vi stat.c 
+cp stat.c ./../lab04/
+ls
+cd ..
+ls
+clear
+ls
+cd lab04/
+ls
+vi stat.c 
+ls
+vi mv.c stat.c 
+ls
+clear
+l
+ls
+clear
+ls
+cat stat.c 
+vi mv.c 
+vi mv.c 
+vi mv.c 
+ls
+gcc mv.c 
+vi mv.c 
+gcc mv.c 
+ls
+clear
+ls
+./a.out d
+touch abc.c
+ls
+clear
+l
+ls
+./a.out abc.c xxx
+ls
+rm xxx 
+ls
+clear
+ls
+./a.out stat.c xxxx
+ls
+vi xxxx 
+./a.out xxxx hi.c
+ls
+vi hi.c 
+clear
+ls
+vi mv.c 
+man link
+man unlink
+ls
+vi mv.c 
+rm a.out 
+ls
+gcc mv.c 
+./a.out hi.c hello.c
+ls
+vi hello.c 
+./a.out 324
+./a.out 234 234
+ls
+./a.out 123123 123
+ls
+clear
+ls
+ls
+l
+clear
+ls
+vi hello.c 
+rm -rf hello.c 
+ls
+vi afile
+ls
+./a.out afile bfile
+ls
+vi bfile 
+ls
+./a.out afile
+./a.out bfile afile
+ls
+cat afile 
+vi afile 
+ls
+vi mv.c 
+cd ..
+ls
+cd lab03/
+ls
+vi stat.c 
+cd ..
+ls
+cd lab04/
+ls
+vi mv.c 
+ls
+rm ./a.out 
+ls
+gcc mv.c 
+ls
+./a.out afile bfile
+ls
+cat bfile 
+./a.out bfile afile
+ls
+cat afile 
+ls
+clear
+ls
+cat mv.c 
+turnin lab4 mv.c
+clear
+showlab
+showlab lab4
+showlab lab3
+showlab lab2
+clear
+ls
+ls
+clear
+ls
+clear
+ls
+cd algorithm/
+clear
+./min 
+ls
+vi dmi
+vi dminpath.c 
+ls
+clear
+ls
+mkdir algorithm
+ls
+cd algorithm/
+ls
+clear
+vi minpath.c
+gcc minpath.c 
+ls
+./a.out 
+clear
+ls
+vi minpath.c 
+gcc minpath.c 
+ls
+./a.out 
+clear
+ls
+vi minpath.c 
+ls
+gcc minpath.c 
+vi minpath.c 
+gcc minpath.c 
+ls
+clear
+ls
+./a.out 
+vi minpath.c 
+clear
+ls
+gcc minpath.c 
+./a.out 
+./a.out 
+vi minpath.c 
+clear
+vi minpath.c 
+gcc minpath.c 
+vi minpath.c 
+gcc minpath.c 
+clear
+./a.out 
+clear
+ls
+cp minpath.c ./dminpath.c
+ls
+vi dminpath.c 
+vi dminpath.c 
+vi dminpath.c 
+gcc dminpath.c 
+vi dminpath.c 
+gcc dminpath.c 
+vi dminpath.c 
+gcc dminpath.c 
+ls
+./a.out 
+ls
+clear
+ls
+gcc dminpath.c -o dmi
+gcc minpath.c -o ori
+ls
+clear
+rm a.out 
+ls
+./ori
+./dmi 
+clear
+ls
+vi dminpath.c 
+vi minpath.c 
+clear
+ls
+clear
+ls
+rm dmi
+rm ori 
+ls
+clear
+ls
+gcc dminpath.c -o dmi
+gcc minpath.c -o min
+ls
+./dmi 
+./min
+clear
+ls
+clear
+./dmi 
+ls
+clear
+ls
+cd algorithm/
+ls
+cp minpath.c hmin.c
+ls
+vi hmin.c 
+clear
+ls
+cd algorithm/
+ls
+rm hmin.c 
+ls
+vi min
+vi minpath.c 
+ls
+clear
+ls
+cd lab04
+l
+ls
+ll
+clear
+ll
+vi mv.c 
+ls
+ls
+clear
+ls
+cd algorithm/
+ls
+./min 
+clear
+ls
+cd ..
+ls
+rm -rf algorithm/
+ls
+clear
+ls
