@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/etc/rc0.d'
 let g:netrw_dirhist_2='gnome-software-49IFPZ'
 let g:netrw_dirhist_3='/sp2018/spa142330/.cache'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/sp2018/spa142330/.cache'
 let g:netrw_dirhist_6='/sp2018/spa142330/.local'
 let g:netrw_dirhist_7='/sp2018/spa142330/.git'
 let g:netrw_dirhist_8='/sp2018/spa142330/.cache'
+let g:netrw_dirhist_9='/var/lib/dpkg/alternatives'

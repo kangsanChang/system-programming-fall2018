@@ -1,500 +1,500 @@
-ls
-./copy 
-ls
-vi bfile 
-ls -al
-ls
-vi copy
-vi copy.c 
-gcc copy
 clear
-gcc copy.c -o copy
 ls
-rm bfile 
-./copy 
-ls
-vi bfile 
-clear
-l
+./a.out 
 ls
 vi copy.c
+gcc copy.c
+./a.out 
+vi copy.c
+clear
 ls
-rm bfile 
+cd midterm1/
 ls
-rm copy
+clear
+ls
+cd copy.c
+vi copy.c 
+ls
+gcc copy.c
+ls
+./a.out 
+vi copy.c 
+ls
+gcc ./a.out 
 gcc copy.c 
 ls
 ./a.out 
 ls
-vi bfile 
-vi afile 
-./a.out 
-ls
-vi bfile 
-rm bfile 
-rm a.out 
-ls
-vi afile 
-vi afile 
-ls
-gcc copy.c -o copy
-ls
-./copy
-ls
-vi bfile 
-turnin lab1 copy.c afile bfile 
-ls
-vi bfile 
-vi afile 
+vi copied 
 vi copy.c
-ls
-cd ..
-ls
-cd lab02
-ls
-ls
-clear
-ls
-vi size.c
-ls
-cp /tmp/test.txt test.txt
-ls
-vi test.txt 
-ls
-vi size.c
-gcc size.c 
-vi size.c 
-gcc size
-clear
-gcc size.c 
-vi size.c 
-gcc size.c 
-vi size.c 
-gcc size.c 
-vi size.c 
-gcc size.c 
-vi size.c 
-vi size.c 
-gcc size.c 
-vi size.c 
-vi size.c 
-gcc size.c 
+gcc copy.c 
 ls
 ./a.out 
-vi test.txt 
+ls
+vi copied 
+rm copied 
+clear
+ls
 ./a.out 
 ls
+vi copied 
+ll
+vi copy.c 
+gcc copy.c
+clear
+ls
+./a.out 
+ls
+vi copied 
+ls
+cat copied 
+./a.out 
+cat copied 
+clear
+l
+ls
+vi copy.c 
 clear
 ls
 ls
-vi size.c 
-ls
-gcc size.c 
-./a.out 
-vi size.c 
-gcc size.c 
-
-vi size.c 
-gcc size.c 
-vi size.c 
-vi size.c 
-ls -l
+cat copied 
 clear
 ls
-cd ..
+vi cop1020.c
+gcc cop1020.c 
+./a.out 
 ls
-mkdir lab03
+cat dcopied 
+cat copied 
+vi testfile 
+ls
+gcc copy.c
+./a.out 
+ls
+cat copied 
+gcc cop1020.c 
+./a.out 
+cat dcopied 
+clear
+ls
+clear
+ls
+w
+cd /
 ls
 ls
-cd lab02/
-turnin lab2 size.c
 ls
-cd ..
-ls
-cd lab03
+ll
+cd ~
 ls
 clear
 l
-vi stat.c
 ls
-vi testfile
-gcc stat.c 
-vi stat.c 
-vi stat.c 
-gcc stat.c 
-vi stat.c 
-gcc stat.c 
-vi stat.c t
-vi stat.c
-gcc stat.c
+cd midterm1/
 ls
 clear
-gcc stat.c
 ls
-gcc stat.c
-vi stat.c 
-gcc stat.c
+vi fstat.c
+ls
+gcc fstat.c 
+vi fstat.c 
+gcc fstat.c 
+vi fstat.c 
+gcc fstat.c 
+vi fstat.c 
+gcc fstat.c 
+vi fstat.c 
 clear
-gcc stat.c
-vi stat.c 
-gcc stat.c
-./a.out 
-vi stat.c 
-./a.out 
-gcc stat.c 
-vi stat.c 
-gcc stat.c 
-./a.out 
-vi stat.c 
+gcc fstat.c 
+vi fstat.c 
+gcc fstat.c 
+vi fstat.c 
+gcc fstat.c 
 clear
-gcc stat.c 
 ls
 ./a.out 
-./a.out testfile
-vi stat.c 
-./a.out testfile
-gcc stat.c 
-./a.out testfile
-vi stat.c 
-gcc stat.c 
-vi stat.c 
-gcc stat.c 
-./a.out testfile
+clear
+s
 ls
-vi stat.c 
-gcc stat.c 
-./a.out testfile
+clear
+cd ..
+ls
 clear
 ls
 ls
-vi stat.c 
+cd midterm1/
 ls
-turnin lab3 stat.c
+vi size_with_lseek.c
+gcc size_with_lseek.c 
+vi size_with_lseek.c 
+gcc size_with_lseek.c 
 ls
-rm a.out 
-gcc stat.c 
-ls
-./a.out testfile
-exit
+./a.out 
 clear
 ls
-mkdir chap04
-cd chap04
-ls
-vi link.c
-gcc link.c 
-vi link.c 
-gcc link.c 
-ls
-ll
+vi size_with_lseek.c 
+gcc size_with_lseek.c 
 ./a.out 
+vi size_with_lseek.c 
+./a.out 
+vi size_with_lseek.c 
+vi size_with_lseek.c 
+gcc size_with_lseek.c 
+./a.out 
+clear
 ls
-ll
-vi link.c 
+./a.out 
+w
+ls
+clear
+l
+cd ..
+ls
+clear
+w
+ls
+cd midterm1/
+ls
+clear
+ls
+vi showino.c
+ls
+gcc showino.c 
+vi showino.c 
+gcc showino.c 
+vi showino.c 
+gcc showino.c 
+vi showino.c 
+gcc showino.c 
+./a.out 
+./a.out 101010
+vi showino.c 
+vi showino.c 
+vi showino.c 
+clear
+clear
+w
+write spb142276
+clear
+tt
+s
+clear
+w
+write spb142254
+clear
+ls
+w
+write spb142254
+clear
+clear
+ls
+clear
 ls
 cd ..
+ls
+gs
+clear
 ls
 gs
 ga
 gs
-git add -A
+ls
+vi .gitignore
+cat .gitignore 
 ls
 gs
+git add .gitignore 
+ls
+git add midterm1/
+ls
 clear
-git commit -m "Update exercises"
+gs
+ga
+gs
+git reset .bash_history
+ls
+gs
+ls
+gc
+ADD midterm exec"
 git push
-ls
-ls -al
-clear
-ls
-ls -al
-vi .git
-vi .gitconfig 
-git push
-git config --global push.default matching
-git push
-clear
-ls -l /dev
-clear
-ls
-umask
-clear
-umask
-ls
-clear
-l
-ls
-mkdir lab04
-ls
-cd lab04
-ls
-ls
-vi mv.c
-clear
-ls
-cd ..
-ls
-cd lab03/
-ls
-vi stat.c 
-cp stat.c ./../lab04/
-ls
-cd ..
 ls
 clear
 ls
 cd lab04/
 ls
-vi stat.c 
-ls
-vi mv.c stat.c 
-ls
+showlab lab4
+vi mv.c 
 clear
-l
 ls
-clear
+cd ..
+cd lab03/
 ls
 cat stat.c 
-vi mv.c 
-vi mv.c 
-vi mv.c 
+cd ..
 ls
-gcc mv.c 
-vi mv.c 
-gcc mv.c 
+sudo apt-get install jfbterm xfonts-base
+apt-get install jfbterm xfonts-base
+cd /var/lib/dpkg/
+ls
+ls
+ll
+ll
+vi alternatives/
+vi arch 
+vi lock 
+vi lock 
+clear
+ls
+cd ~
 ls
 clear
 ls
-./a.out d
-touch abc.c
+ls
+clear
+ls
+man 2 open
+clear
+ls
+logout
+clear
+w
+clear
+ls
+exit
+ls
+cd chap04
+ls
+vi chmod.c
+gcc chmod.c 
+ls
+./a.out 
+vi chmod.c 
+man 2 perror
+man perror
+man 3 perror
+vi chmod.c 
+gcc chmod.c 
+ls
+./a.out 
+touch foo
+./a.out 
+./a.out 
+ls
+ll
+rm -rf foo 
 ls
 clear
 l
+ll
+touch foo
 ls
-./a.out abc.c xxx
-ls
-rm xxx 
-ls
-clear
-ls
-./a.out stat.c xxxx
-ls
-vi xxxx 
-./a.out xxxx hi.c
-ls
-vi hi.c 
-clear
-ls
-vi mv.c 
-man link
-man unlink
-ls
-vi mv.c 
-rm a.out 
-ls
-gcc mv.c 
-./a.out hi.c hello.c
-ls
-vi hello.c 
-./a.out 324
-./a.out 234 234
-ls
-./a.out 123123 123
+ll
+./a.out 
+ll
 ls
 clear
 ls
-ls
-l
+w
+utime
+time
 clear
 ls
-vi hello.c 
-rm -rf hello.c 
+vi utime
+vi utime.c
+gcc utime.c 
+./a.out 
+ls
+cd chap04/
+ls
+clear
+ls
+clear
+ls
+epoch
+ls
+gcc utime.c 
+ls
+clear
 ls
 vi afile
+vi bfile
+./a.out afile bfile 
 ls
-./a.out afile bfile
+ll
+vi utime.c 
+gcc utime.c 
+man 3 utimbuf
+vi utime.c 
 ls
-vi bfile 
+clear
 ls
-./a.out afile
-./a.out bfile afile
-ls
-cat afile 
 vi afile 
 ls
-vi mv.c 
-cd ..
+vi bfile 
+clear
 ls
-cd lab03/
-ls
-vi stat.c 
-cd ..
-ls
-cd lab04/
-ls
-vi mv.c 
-ls
-rm ./a.out 
-ls
-gcc mv.c 
-ls
-./a.out afile bfile
-ls
-cat bfile 
-./a.out bfile afile
+ls -lu afile
+ls -lu
+./a.out afile bfile 
+ls -lu
+ll
 ls
 cat afile 
+cat bfile 
 ls
 clear
 ls
-cat mv.c 
-turnin lab4 mv.c
-clear
-showlab
-showlab lab4
-showlab lab3
-showlab lab2
-clear
-ls
+vi utime.c 
 ls
 clear
 ls
-clear
-ls
-cd algorithm/
-clear
-./min 
-ls
-vi dmi
-vi dminpath.c 
-ls
-clear
-ls
-mkdir algorithm
-ls
-cd algorithm/
-ls
-clear
-vi minpath.c
-gcc minpath.c 
-ls
-./a.out 
-clear
-ls
-vi minpath.c 
-gcc minpath.c 
-ls
-./a.out 
-clear
-ls
-vi minpath.c 
-ls
-gcc minpath.c 
-vi minpath.c 
-gcc minpath.c 
-ls
-clear
-ls
-./a.out 
-vi minpath.c 
-clear
-ls
-gcc minpath.c 
-./a.out 
-./a.out 
-vi minpath.c 
-clear
-vi minpath.c 
-gcc minpath.c 
-vi minpath.c 
-gcc minpath.c 
-clear
-./a.out 
-clear
-ls
-cp minpath.c ./dminpath.c
-ls
-vi dminpath.c 
-vi dminpath.c 
-vi dminpath.c 
-gcc dminpath.c 
-vi dminpath.c 
-gcc dminpath.c 
-vi dminpath.c 
-gcc dminpath.c 
+vi dir.c
+gcc dir.c 
+vi dir.c 
+gcc dir.c 
 ls
 ./a.out 
 ls
-clear
+./a.out .
+./a.out ..
+./a.out qwr
 ls
-gcc dminpath.c -o dmi
-gcc minpath.c -o ori
+cd qwr/
 ls
-clear
-rm a.out 
-ls
-./ori
-./dmi 
-clear
-ls
-vi dminpath.c 
-vi minpath.c 
-clear
+cd ..
+ll
+rm -rf qwr/
 ls
 clear
-ls
-rm dmi
-rm ori 
-ls
-clear
-ls
-gcc dminpath.c -o dmi
-gcc minpath.c -o min
-ls
-./dmi 
-./min
-clear
-ls
-clear
-./dmi 
-ls
-clear
-ls
-cd algorithm/
-ls
-cp minpath.c hmin.c
-ls
-vi hmin.c 
-clear
-ls
-cd algorithm/
-ls
-rm hmin.c 
-ls
-vi min
-vi minpath.c 
-ls
-clear
-ls
-cd lab04
 l
+man 3 strcmp
+ls
+./a.out .
+mkdir lab05
+ls
+cd lab05/
+ls
+clear
+ls
+mkdir lab05
+ls
+cd lab05
+ls
+clear
+ls
+vi suffix.c
+gcc suffix.c 
+vi suffix.c 
+gcc suffix.c 
+./a.out asdf qrqr
+clear
+vi suffix.c 
+gcc suffix.c 
+vi suffix.c 
+gcc suffix.c 
+vi suffix.c 
+gcc suffix.c 
+ls
+./a.out .
+./a.out ..
+clear
+ls
+./suff
+vi suffix.c 
+ls
+gcc suffix.c 
+./a.out 
+vi suffix.c 
+gcc suffix.c 
+./a.out 
+./suff
+vi suffix.c 
+gcc suffix.c 
+./a.out 
+clear
+ls
+./a.out . c
+ls ..
+ls
+cd ..
+ls
+cd lab05/
+ls
+touch q.we
+touch e.txt
+touch pwp.sso
+touch qqwer.docx
+touch super.happy
+touch hello.we
+touch man.we
+ls
+./a.out . out
+./a.out . happy
+ll
+./a.out . we
+clear
 ls
 ll
-clear
-ll
-vi mv.c 
-ls
+rm e.txt hello.we man.we pwp.sso q.we qqwer.docx 
 ls
 clear
 ls
-cd algorithm/
+./a.out . happy
+./a.out . y
+./a.out . sssfwf
+./a.out .. w
+clear
 ls
-./min 
+vi suffix.c 
+vi suffix.c 
+gcc suffix.c 
+ls
+./a.out happy
+./a.out . happy
+./a.out . unhappy
 clear
 ls
 cd ..
 ls
-rm -rf algorithm/
+ls
+cd lab05
+ls
+turnin lab5 suffix.c
+showlab lab5
+clear
+ls
+vi suffix.c 
+c;ear
+clear
 ls
 clear
 ls
+cd chap04
+ls
+vi chdir.c
+ls
+gcc chdir.c 
+./a.out 
+ls
+clear
+./a.out 
+clear
+ls
+cd 04
+cd chap04/
+ls
+vi symlink.c
+gcc symlink.c 
+ls
+clear
+ls
+touch afile
+touch bfile
+vi afile 
+ls
+;;
+clear
+ll
+./a.out afile bfile 
+ll
