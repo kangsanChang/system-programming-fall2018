@@ -1,500 +1,500 @@
-clear
 ls
+vi test.c 
+rm test.c 
+ls
+clear
+sl
+ls
+ls
+mkdir chap06
+ls
+cd chap06/
+ls
+vi atexit.c
+gcc atexit.c 
+vi atexit.c 
+gcc atexit.c 
 ./a.out 
-ls
-vi copy.c
-gcc copy.c
-./a.out 
-vi copy.c
-clear
-ls
-cd midterm1/
-ls
-clear
-ls
-cd copy.c
-vi copy.c 
-ls
-gcc copy.c
-ls
-./a.out 
-vi copy.c 
-ls
-gcc ./a.out 
-gcc copy.c 
-ls
-./a.out 
-ls
-vi copied 
-vi copy.c
-gcc copy.c 
-ls
-./a.out 
-ls
-vi copied 
-rm copied 
-clear
-ls
-./a.out 
-ls
-vi copied 
-ll
-vi copy.c 
-gcc copy.c
-clear
-ls
-./a.out 
-ls
-vi copied 
-ls
-cat copied 
-./a.out 
-cat copied 
-clear
-l
-ls
-vi copy.c 
-clear
-ls
-ls
-cat copied 
-clear
-ls
-vi cop1020.c
-gcc cop1020.c 
-./a.out 
-ls
-cat dcopied 
-cat copied 
-vi testfile 
-ls
-gcc copy.c
-./a.out 
-ls
-cat copied 
-gcc cop1020.c 
-./a.out 
-cat dcopied 
-clear
-ls
-clear
-ls
-w
-cd /
-ls
-ls
-ls
-ll
-cd ~
-ls
-clear
-l
-ls
-cd midterm1/
-ls
-clear
-ls
-vi fstat.c
-ls
-gcc fstat.c 
-vi fstat.c 
-gcc fstat.c 
-vi fstat.c 
-gcc fstat.c 
-vi fstat.c 
-gcc fstat.c 
-vi fstat.c 
-clear
-gcc fstat.c 
-vi fstat.c 
-gcc fstat.c 
-vi fstat.c 
-gcc fstat.c 
-clear
-ls
-./a.out 
-clear
-s
-ls
-clear
-cd ..
-ls
-clear
-ls
-ls
-cd midterm1/
-ls
-vi size_with_lseek.c
-gcc size_with_lseek.c 
-vi size_with_lseek.c 
-gcc size_with_lseek.c 
-ls
-./a.out 
-clear
-ls
-vi size_with_lseek.c 
-gcc size_with_lseek.c 
-./a.out 
-vi size_with_lseek.c 
-./a.out 
-vi size_with_lseek.c 
-vi size_with_lseek.c 
-gcc size_with_lseek.c 
-./a.out 
-clear
-ls
-./a.out 
-w
-ls
-clear
-l
-cd ..
-ls
-clear
-w
-ls
-cd midterm1/
-ls
-clear
-ls
-vi showino.c
-ls
-gcc showino.c 
-vi showino.c 
-gcc showino.c 
-vi showino.c 
-gcc showino.c 
-vi showino.c 
-gcc showino.c 
-./a.out 
-./a.out 101010
-vi showino.c 
-vi showino.c 
-vi showino.c 
-clear
-clear
-w
-write spb142276
-clear
-tt
-s
-clear
-w
-write spb142254
-clear
-ls
-w
-write spb142254
-clear
-clear
-ls
-clear
-ls
-cd ..
-ls
-gs
-clear
-ls
-gs
-ga
-gs
-ls
-vi .gitignore
-cat .gitignore 
-ls
-gs
-git add .gitignore 
-ls
-git add midterm1/
-ls
-clear
-gs
-ga
-gs
-git reset .bash_history
-ls
-gs
-ls
-gc
-ADD midterm exec"
-git push
-ls
-clear
-ls
-cd lab04/
-ls
-showlab lab4
-vi mv.c 
-clear
-ls
-cd ..
-cd lab03/
-ls
-cat stat.c 
-cd ..
-ls
-sudo apt-get install jfbterm xfonts-base
-apt-get install jfbterm xfonts-base
-cd /var/lib/dpkg/
-ls
-ls
-ll
-ll
-vi alternatives/
-vi arch 
-vi lock 
-vi lock 
-clear
-ls
-cd ~
-ls
-clear
-ls
-ls
-clear
-ls
-man 2 open
-clear
-ls
-logout
-clear
-w
-clear
-ls
-exit
-ls
-cd chap04
-ls
-vi chmod.c
-gcc chmod.c 
-ls
-./a.out 
-vi chmod.c 
-man 2 perror
-man perror
-man 3 perror
-vi chmod.c 
-gcc chmod.c 
-ls
-./a.out 
-touch foo
-./a.out 
-./a.out 
-ls
-ll
-rm -rf foo 
-ls
-clear
-l
-ll
-touch foo
-ls
-ll
-./a.out 
-ll
-ls
-clear
-ls
-w
-utime
-time
-clear
-ls
-vi utime
-vi utime.c
-gcc utime.c 
-./a.out 
-ls
-cd chap04/
-ls
-clear
-ls
-clear
-ls
-epoch
-ls
-gcc utime.c 
-ls
-clear
-ls
-vi afile
-vi bfile
-./a.out afile bfile 
-ls
-ll
-vi utime.c 
-gcc utime.c 
-man 3 utimbuf
-vi utime.c 
-ls
-clear
-ls
-vi afile 
-ls
-vi bfile 
-clear
-ls
-ls -lu afile
-ls -lu
-./a.out afile bfile 
-ls -lu
-ll
-ls
-cat afile 
-cat bfile 
-ls
-clear
-ls
-vi utime.c 
-ls
-clear
-ls
-vi dir.c
-gcc dir.c 
-vi dir.c 
-gcc dir.c 
-ls
-./a.out 
-ls
-./a.out .
-./a.out ..
-./a.out qwr
-ls
-cd qwr/
-ls
-cd ..
-ll
-rm -rf qwr/
-ls
-clear
-l
-man 3 strcmp
-ls
-./a.out .
-mkdir lab05
-ls
-cd lab05/
-ls
-clear
-ls
-mkdir lab05
-ls
-cd lab05
-ls
-clear
-ls
-vi suffix.c
-gcc suffix.c 
-vi suffix.c 
-gcc suffix.c 
-./a.out asdf qrqr
-clear
-vi suffix.c 
-gcc suffix.c 
-vi suffix.c 
-gcc suffix.c 
-vi suffix.c 
-gcc suffix.c 
-ls
-./a.out .
-./a.out ..
-clear
-ls
-./suff
-vi suffix.c 
-ls
-gcc suffix.c 
-./a.out 
-vi suffix.c 
-gcc suffix.c 
-./a.out 
-./suff
-vi suffix.c 
-gcc suffix.c 
-./a.out 
-clear
-ls
-./a.out . c
-ls ..
-ls
-cd ..
-ls
-cd lab05/
-ls
-touch q.we
-touch e.txt
-touch pwp.sso
-touch qqwer.docx
-touch super.happy
-touch hello.we
-touch man.we
-ls
-./a.out . out
-./a.out . happy
-ll
-./a.out . we
-clear
-ls
-ll
-rm e.txt hello.we man.we pwp.sso q.we qqwer.docx 
-ls
-clear
-ls
-./a.out . happy
-./a.out . y
-./a.out . sssfwf
-./a.out .. w
-clear
-ls
-vi suffix.c 
-vi suffix.c 
-gcc suffix.c 
-ls
-./a.out happy
-./a.out . happy
-./a.out . unhappy
-clear
-ls
-cd ..
-ls
-ls
-cd lab05
-ls
-turnin lab5 suffix.c
-showlab lab5
-clear
-ls
-vi suffix.c 
+vi atexit.c 
+vi atexit.c 
 c;ear
 clear
 ls
+vi mainagru.c
+gcc mainagru.c 
+./a.out a b c d
+ls
+vi mainagru2.c
+gcc mainagru2.c 
+./a.out 1 2 3 4 
+ll
+cd ..
+ls -al
+vi .bash_profile 
+env
+clear
+env
+OLDPWD
+echo OLDPWD
+echo $OLDPWD
+$OLDPWD
+wall
+id
+ls
+clear
+cd chap06/
+ls
+vi env.c
+gcc env.c 
+./a.out 
+_
+_
+$_
+echo $_
+ls
+ls
 clear
 ls
-cd chap04
+cd ..
 ls
-vi chdir.c
+mkdir lab06
 ls
-gcc chdir.c 
+cd lab06/
+ls
+vi pathdot.c
+ls
+cd 2018_sp_score/
+ls
+cd mid/
+ls
+ls -al
+w
+clear
+s
+ls
+clear
+ls
+clear
+ls
+ls
+cd chap06
+ls
+vi setjmp.c
+gcc setjmp.c 
+vi setjmp.c 
+gcc setjmp.c 
+./a.out 
+./a.out 
+env
+vi setjmp.c 
+gcc setjmp.c 
+./a.out 
+vi setjmp.c 
+ls
+cd chap06
+ls
+vi fork.c
+gcc fork.c 
+./a.out 
+gcc setjmp.c 
+ls
+./a.out 
+vi setjmp.c 
+gcc setjmp.c 
+./a.out 
+vi setjmp.c 
+vi setjmp.c 
+vi setjmp.c 
+vi setjmp.c 
+ls
+ls -al
+rm *.swp
+rm .setjmp.c.swp 
+ls
+vi fork2.c
+gcc fork2.c 
+vi fork2.c 
+gcc fork2.c 
+./a.out 
+clear
+ls
+vi setjmp.c 
+gcc setjmp.c 
+./a.out 
+vi setjmp.c 
+gcc setjmp.c 
+./a.out 
+gcc fork2.c 
+gcc fork.c
+./a.out 
+gcc fork2.c 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+vi fork3.c
+gcc fork3.c 
+vi fork3.h
+vi fork3.c 
+gcc fork3.c 
+./a.out 
+./a.out 
+clear
+vi fork3.c 
+./a.out 
+vi fork3.c 
+gcc fork3.c 
+./a.out 
+vi fork3.c 
+gcc fork3.c 
+./a.out 
+vi fork3.c 
+gcc fork3.c 
+./a.out 
+ㅊ
+clear
+l
+w
+ls
+cd ..
+ls
+cd lab06/
+ls
+clear
+ls
+vi env_path.c
+man 3 strcat
+vi env_path.c 
+gcc env_path.c 
+./a.out 
+clear
+./a.out 
+cd ..
+vi .bash_profile 
+ls
+ls -al
+vi .bash_H
+vi .bash_history 
+vi .profile 
+source .profile 
+cd lab06/
+a.out
+./a.out 
+./a.out 
+cd ..
+vi .profile 
+source .profile 
+cd lab06/
+ls
+vi env_path.c 
+gcc env_path.c 
+vi env_path.c 
+gcc env_path.c 
+./a.out 
+echo $PATH
+vi env_path.c 
+gcc env_path.c 
+./a.out 
+vi env_path.c 
+echo $PATH
+./a.out 
+vi env_path.c 
+gcc env_path.c 
+./a.out 
+vi env_path.c 
+gcc env_path.c 
+vi env_path.c 
+gcc env_path.c 
+./a.out 
+ls
+ls
+vi env_path.c 
+gcc env_path.c 
+vi env_path.c 
+gcc env_path.c 
+./a.out 
+vi env_path.c 
+gcc env_path.c 
+./a.out 
+turnin lab6 env_path.c 
+showlab lab6
+showlab lab5
+showlab lab4
+showlab lab3
+showlab lab2
+showlab lab1
+showlab lab7
+clear
+ls
+clear
+ls
+do-release-upgrade
+clear
+ls
+ls
+cd chap06
+ls
+showlab lab6
+clear
+ls
+vi vfork.c
+gcc vfork.c 
+./a.out 
+vi vfork.c 
+./a.out 
+gcc vfork.c 
+./a.out 
+./a.out 
+ls
+cd vfor
+vi vfork.c 
+gcc vfork.c 
+./a.out 
+ls
+vi loop.c
+gcc loop.c 
+./a.out 
+w
+ls
+clear
+ls
+cd ..
+ls
+mkdir lab07
+ls
+ls
+clear
+ls
+cd lab07
+ls
+ls
+clear
+ls
+vi waitpid1.c
+clear
+man 3 wait
+man 2 wait
+man 2 fork
+ls
+cd lab07/
+ls
+ls
+clear
+ls
+cd wait
+vi waitpid1.c 
+ls
+cd ..
+ls
+cd chap06/
+ls
+vi fork3.c 
+vi waitpid.c
+gcc waitpid.c 
+vi waitpid.c 
+gcc waitpid.c 
+./a.out 
+cd ..
+cd lab07/
+ls
+vi waitpid1.c ./../chap06/waitpid.c 
+clear
+ls
+vi waitpid1.c 
+ls
+gcc waitpid1.c 
+vi waitpid1.c 
+gcc waitpid1.c 
+ls
+./a.out 
+ls
+w
+ls
+turnin lab7 waitpid1.c 
+vi waitpid1.c 
 ./a.out 
 ls
 clear
+ls
+clear
+ls
+w
+cd lab07
+ls
+./a.out 
+ls
+cd ..
+cd chap06/
+ls
+clear
+ls
+vi waitpid.c 
+vi wait1.c
+gcc wait1.c 
+vi wait1.c 
+gcc wait1.c 
+./a.out 
+vi wait1.c 
+gcc wait1.c 
+./a.out 
+ls
+vi waitpid.c 
+gcc waitpid.c 
+./a.out 
+cd ..
+cd lab07/
+ls
+./a.out 
+ls
+clear
+ls
+cd ..
+ls
+cd chap06/
+ls
+mkdir race_condition
+ls
+cd race_condition/
+ls
+cp /tmp/ourhdr.h ourhdr.h
+cp /tmp/tellwait.h tellwait.h
+cp /tmp/tellwait.c tellwait.c
+ls
+clear
+ls
+vi tellwait1.c
+vi ourhdr.h 
+ls
+vi tellwait
+vi tellwait.c
+vi tellwait1.c
+gcc tellwait1.c 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+vi tellwait1.c 
+gcc tellwait1.c 
+./a.out 
+a.out
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+vi tellwait2.c
+gcc tellwait2.c 
+gcc tellwait2.c
+ls
+vi tellwait2.c 
+gcc tellwait2.c 
+vi tellwait
+vi tellwait2.c 
+gcc tellwait2.c 
+vi tellwait2.c 
+gcc tellwait2.c 
+./a.out 
+./a.out 
+./a.out 
+vi tellwait2.c 
+gcc tellwait2.c 
+./a.out 
+./a.out 
+./a.out 
+clear
+./a.out 
+./a.out 
+ls
+clear
+ls
+cd chap06/
+ls
+vi execl.c
+gcc execl.c 
+vi execl.c 
+gcc execl.c 
+man 3 exit
+man 2 eit
+man 2 exit
+vi execl.c 
+clear
+ls
+./a.out 
+gcc execl.c 
+./a.out 
+ls
+ls -al
+ls -l
+clear
+ㅣ
+./a.out 
+vi execl.c 
+gcc execl.c 
 ./a.out 
 clear
 ls
-cd 04
-cd chap04/
-ls
-vi symlink.c
-gcc symlink.c 
+showlab lab7
 ls
 clear
 ls
-touch afile
-touch bfile
-vi afile 
 ls
-;;
 clear
-ll
-./a.out afile bfile 
-ll
+ls
+mv execl.c exec.c
+ls
+vi execl.c
+gcc execl.c 
+./a.out 
+./a.out -l
+./a.out -al
+clear
+lw
+ls
+ls
+clear
+s
+ls
+vi execv.c
+gcc exse
+gc execv.c 
+f
+gcc execv.c 
+./a.out 
+clear
+./a.out 
+ls
+vi progexe.c
+gcc progexe.c 
+./a.
+ls
+gcc progexe.c 
+vi progexe.c 
+vi progexe.c 
+clear
+gcc progexe.c 
+vi progexe.c o
+vi progexe.c
+gcc progexe.c 
+./a.out
+ls
+vi progexe.c 
+gcc progexe.c 
+vi progexe.c 
+gcc progexe.c 
+gcc progexe.c 123
+gcc progexe.c
+gcc progexe.c
+clear
+ls
+gcc progexe.c 
+vi progexe.c 

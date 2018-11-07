@@ -14,9 +14,11 @@ $
 :wq
 :w
 :q
+:Wq
+:vs ./../chap06/waitpid.c
+:sp ./../chap06/waitpid.c
 :Q
 :q!
-:Wq
 :ㅂq
 ::q
 :vsplit
@@ -38,54 +40,125 @@ $
 			printf("%s : ", dp->d_name);
 			printf("%lu\n", dp->d_ino);
 ""1	LINE	0
-			printf("%lu\n", dp->d_ino);
+	
 "2	LINE	0
-			printf("%s : ", dp->d_name);
+	
 "3	LINE	0
-					printf("It's match!! \n");		
+	#include <stdlib.h>
 "4	LINE	0
-					printf("%lu\n", dp->d_ino);
-					break;
+	
 "5	LINE	0
-					printf("It's match!! \n");		
-					printf("%s : ", dp->d_name);
+	#include <stdlib.h>
 "6	LINE	0
-			printf("%s : ", dp->d_name);
+				if(
 "7	LINE	0
-		return 0;
+				sleep(1);
 "8	LINE	0
-		printf("argc : %d, args: %s %s %s",argc,args[0],args[1],args[2]);
+		int childs[10];
 "9	LINE	0
-			return printf("Usage : ./a.out [dirname] [suffix]\n");
+		}
 "-	CHAR	0
-	)
+	i
 
 # 파일 마크:
-'0  1  17  ~/chap04/afile
-'1  16  32  ~/chap04/symlink.c
-'2  16  1  ~/chap04/chdir.c
-'3  32  0  ~/lab05/suffix.c
-'4  29  2  ~/lab05/suffix.c
-'5  30  1  ~/lab05/suffix.c
-'6  20  46  ~/lab05/suffix.c
-'7  24  26  ~/lab05/suffix.c
-'8  22  8  ~/lab05/suffix.c
-'9  31  9  ~/lab05/suffix.c
+'0  10  8  ~/chap06/progexe.c
+'1  21  10  ~/chap06/progexe.c
+'2  25  0  ~/chap06/progexe.c
+'3  7  0  ~/chap06/progexe.c
+'4  6  0  ~/chap06/progexe.c
+'5  24  1  ~/chap06/progexe.c
+'6  9  21  ~/chap06/execv.c
+'7  5  0  ~/chap06/execl.c
+'8  17  0  ~/chap06/execl.c
+'9  1  0  ~/chap06/execl.c
 
 # 점프목록 (새것이 먼저):
+-'  10  8  ~/chap06/progexe.c
+-'  1  0  ~/chap06/progexe.c
+-'  21  10  ~/chap06/progexe.c
+-'  25  0  ~/chap06/progexe.c
+-'  7  0  ~/chap06/progexe.c
+-'  6  0  ~/chap06/progexe.c
+-'  24  1  ~/chap06/progexe.c
+-'  9  21  ~/chap06/execv.c
+-'  1  0  ~/chap06/execv.c
+-'  5  0  ~/chap06/execl.c
+-'  1  0  ~/chap06/execl.c
+-'  17  0  ~/chap06/execl.c
+-'  13  22  ~/chap06/execl.c
+-'  8  4  ~/chap06/execl.c
+-'  7  0  ~/chap06/execl.c
+-'  18  54  ~/chap06/race_condition/tellwait2.c
+-'  1  0  ~/chap06/race_condition/tellwait2.c
+-'  31  1  ~/chap06/race_condition/tellwait2.c
+-'  2  12  ~/chap06/race_condition/tellwait2.c
+-'  1  0  ~/chap06/race_condition/tellwait
+-'  20  8  ~/chap06/race_condition/tellwait2.c
+-'  24  1  ~/chap06/race_condition/tellwait1.c
+-'  1  0  ~/chap06/race_condition/tellwait1.c
+-'  1  0  ~/chap06/race_condition/tellwait.c
+-'  1  0  ~/chap06/race_condition/ourhdr.h
+-'  4  0  ~/chap06/race_condition/tellwait1.c
+-'  32  0  ~/chap06/waitpid.c
+-'  1  0  ~/chap06/waitpid.c
+-'  46  42  ~/chap06/wait1.c
+-'  1  0  ~/chap06/wait1.c
+-'  6  0  ~/chap06/wait1.c
+-'  48  16  ~/chap06/wait1.c
+-'  1  0  ~/lab07/waitpid1.c
+-'  6  0  ~/lab07/waitpid1.c
+-'  6  0  ~/chap06/waitpid.c
+-'  1  0  ~/chap06/fork3.c
+-'  31  1  ~/lab07/waitpid1.c
+-'  6  14  ~/chap06/loop.c
+-'  1  0  ~/chap06/loop.c
+-'  22  15  ~/chap06/vfork.c
+-'  1  0  ~/chap06/vfork.c
+-'  17  39  ~/chap06/vfork.c
+-'  24  8  ~/chap06/vfork.c
+-'  8  20  ~/lab06/env_path.c
+-'  1  0  ~/lab06/env_path.c
+-'  9  9  ~/lab06/env_path.c
+-'  1  93  ~/.profile
+-'  1  0  ~/.bash_history
+-'  1  0  ~/.bash_H
+-'  1  0  ~/.bash_profile
+-'  6  0  ~/lab06/env_path.c
+-'  1  0  ~/chap06/setjmp.c
+-'  31  5  ~/chap06/setjmp.c
+-'  5  0  ~/chap06/setjmp.c
+-'  35  22  ~/chap06/setjmp.c
+-'  5  22  ~/lab06/pathdot.c
+-'  1  0  ~/lab06/pathdot.c
+-'  13  8  ~/chap06/env.c
+-'  1  0  ~/chap06/env.c
+-'  7  0  ~/.bash_profile
+-'  12  8  ~/chap06/mainagru2.c
+-'  1  0  ~/chap06/mainagru2.c
+-'  11  8  ~/chap06/mainagru.c
+-'  1  0  ~/chap06/mainagru.c
+-'  9  91  ~/chap06/atexit.c
+-'  1  0  ~/chap06/atexit.c
+-'  28  0  ~/chap06/atexit.c
+-'  25  1  ~/chap06/atexit.c
+-'  2  18  ~/chap06/atexit.c
+-'  27  8  ~/chap06/atexit.c
+-'  1  0  ~/test.c
+-'  4  10  ~/test.c
+-'  3  14  ~/test.c
+-'  1  0  ~/lab05/suffix.c
+-'  22  21  ~/lab05/suffix.c
 -'  1  17  ~/chap04/afile
 -'  16  32  ~/chap04/symlink.c
 -'  1  0  ~/chap04/symlink.c
 -'  16  1  ~/chap04/chdir.c
 -'  1  0  ~/chap04/chdir.c
 -'  32  0  ~/lab05/suffix.c
--'  1  0  ~/lab05/suffix.c
 -'  29  2  ~/lab05/suffix.c
 -'  30  1  ~/lab05/suffix.c
 -'  27  4  ~/lab05/suffix.c
 -'  20  46  ~/lab05/suffix.c
 -'  24  26  ~/lab05/suffix.c
--'  22  8  ~/lab05/suffix.c
 -'  31  9  ~/lab05/suffix.c
 -'  25  5  ~/chap04/dir.c
 -'  1  0  ~/chap04/dir.c
@@ -97,111 +170,411 @@ $
 -'  11  0  ~/chap04/utime.c
 -'  24  9  ~/chap04/utime.c
 -'  1  0  ~/chap04/utime
--'  4  17  ~/chap04/chmod.c
--'  1  0  ~/chap04/chmod.c
--'  9  1  ~/chap04/chmod.c
--'  15  9  ~/chap04/chmod.c
--'  7  0  ~/midterm1/test.c
--'  1  0  ~/midterm1/test.c
--'  1  0  ~/midterm1/test
--'  5  13  ~/midterm1/test.c
--'  9  14  ~/midterm1/umask.c
--'  1  0  ~/midterm1/umask.c
--'  14  9  ~/midterm1/umask.c
--'  15  0  ~/midterm1/umask.c
--'  1  0  ~/lab04/mv.c
--'  1  4  /var/lib/dpkg/lock
--'  1  0  /var/lib/dpkg/arch
--'  8  0  /var/lib/dpkg/alternatives
--'  1  12  ~/.gitignore
--'  19  0  ~/midterm1/showino.c
--'  1  0  ~/midterm1/showino.c
--'  7  0  ~/midterm1/showino.c
--'  18  0  ~/midterm1/showino.c
--'  23  0  ~/midterm1/showino.c
--'  17  46  ~/midterm1/showino.c
--'  3  18  ~/midterm1/showino.c
--'  10  38  ~/midterm1/size_with_lseek.c
--'  1  0  ~/midterm1/size_with_lseek.c
--'  11  10  ~/midterm1/size_with_lseek.c
--'  12  23  ~/midterm1/size_with_lseek.c
--'  13  39  ~/midterm1/size_with_lseek.c
--'  17  26  ~/midterm1/fstat.c
--'  1  0  ~/midterm1/fstat.c
--'  16  16  ~/midterm1/fstat.c
--'  4  18  ~/midterm1/fstat.c
--'  18  1  ~/midterm1/fstat.c
--'  2  8  ~/midterm1/testfile
--'  1  0  ~/midterm1/testfile
--'  17  25  ~/midterm1/cop1020.c
--'  1  0  ~/midterm1/cop1020.c
--'  21  0  ~/midterm1/copy.c
--'  1  0  ~/midterm1/copy.c
--'  14  0  ~/midterm1/copied
--'  1  0  ~/midterm1/copied
--'  15  31  ~/midterm1/copy.c
--'  16  7  ~/midterm1/copy.c
--'  19  18  ~/midterm1/copy.c
--'  18  37  ~/midterm1/copy.c
--'  14  10  ~/midterm1/copy.c
--'  2  18  ~/midterm1/copy.c
--'  6  18  ~/midterm1/copy.c
--'  1  0  ~/midterm1/dup.c
--'  11  0  ~/midterm1/lab3.c
--'  1  0  ~/midterm1/lab3.c
--'  7  18  ~/midterm1/lab3.c
--'  1  0  ~/midterm1/lab3.h
--'  8  26  ~/midterm1/lab3.c
--'  6  7  ~/midterm1/lab3.c
--'  10  15  ~/midterm1/lab3.c
--'  9  17  ~/midterm1/lab3.c
--'  15  0  ~/midterm1/dup2.c
--'  1  0  ~/midterm1/dup2.c
--'  1  0  ~/midterm1/afile
--'  16  9  ~/midterm1/dup2.c
--'  1  0  ~/midterm1/dup2
--'  11  3  ~/midterm1/dup.c
--'  17  9  ~/midterm1/dup.c
--'  8  10  ~/midterm1/lab2.c
--'  1  0  ~/midterm1/lab2.c
--'  3  16  ~/midterm1/lab2.c
--'  5  20  ~/midterm1/lab2.c
--'  11  51  ~/midterm1/lab2.c
--'  1  0  ~/midterm1/file.hole
--'  21  9  ~/midterm1/lseek.c
--'  1  0  ~/midterm1/lseek.c
 
 # 파일내의 마크 히스토리 (새것부터 오래된 순):
 
-> ~/chap04/afile
-	"	1	17
-	^	1	18
-	.	1	17
-	+	1	17
+> ~/chap06/progexe.c
+	"	10	8
+	^	21	11
+	.	21	10
+	+	9	29
+	+	10	36
+	+	16	36
+	+	17	18
+	+	18	9
+	+	21	18
+	+	22	64
+	+	23	9
+	+	6	0
+	+	6	0
+	+	12	4
+	+	15	8
+	+	21	10
 
-> ~/chap04/symlink.c
-	"	16	32
-	^	16	33
-	.	16	32
-	+	4	7
-	+	3	7
+> ~/chap06/execv.c
+	"	9	21
+	^	9	22
+	.	9	21
+	+	2	7
+	+	3	13
+	+	9	21
+
+> ~/chap06/execl.c
+	"	5	0
+	^	5	1
+	.	4	41
+	+	8	7
+	+	9	26
+	+	16	8
+	+	6	18
+	+	8	4
+	+	14	25
+	+	13	22
+	+	3	29
+	+	4	41
+
+> ~/chap06/race_condition/tellwait2.c
+	"	18	54
+	^	18	57
+	.	18	57
+	+	7	11
+	+	8	11
+	+	13	18
+	+	14	16
+	+	15	37
+	+	16	7
+	+	17	36
+	+	15	32
+	+	18	17
+	+	20	8
+	+	2	12
+	+	23	35
+	+	24	11
+	+	28	27
+	+	29	17
+	+	30	15
+	+	14	37
+	+	18	57
+
+> ~/chap06/race_condition/tellwait
+	"	1	0
+
+> ~/chap06/race_condition/tellwait1.c
+	"	24	1
+	^	24	2
+	.	20	37
+	+	4	0
+	+	1	21
+	+	7	11
+	+	8	11
+	+	13	8
+	+	16	35
+	+	17	11
+	+	21	29
+	+	22	17
+	+	23	15
+	+	20	37
+
+> ~/chap06/race_condition/tellwait.c
+	"	1	0
+
+> ~/chap06/race_condition/ourhdr.h
+	"	1	0
+
+> ~/chap06/waitpid.c
+	"	32	0
+	^	6	0
+	.	5	19
+	+	7	11
+	+	8	9
+	+	12	13
+	+	13	26
+	+	14	9
+	+	16	14
+	+	17	25
+	+	19	10
+	+	20	7
+	+	21	40
+	+	23	25
+	+	24	30
+	+	25	53
+	+	26	32
+	+	27	32
+	+	28	49
+	+	29	0
+	+	31	8
+	+	5	19
+
+> ~/chap06/wait1.c
+	"	46	42
+	^	46	43
+	.	47	0
+	+	8	11
+	+	9	11
+	+	16	13
+	+	17	10
+	+	19	11
+	+	18	23
+	+	29	9
+	+	32	15
+	+	33	16
+	+	34	10
+	+	37	14
+	+	38	15
+	+	47	0
+	+	43	26
+	+	44	53
+	+	44	67
+	+	45	8
+	+	46	42
+	+	47	2
+	+	48	16
+	+	7	0
+	+	5	19
+	+	44	42
+	+	45	0
+	+	44	63
+	+	45	2
+	+	43	25
+	+	47	0
+
+> ~/lab07/waitpid1.c
+	"	1	0
+	^	6	0
+	.	5	19
+	+	7	11
+	+	8	7
+	+	31	15
+	+	31	2
+	+	31	8
+	+	31	2
+	+	31	4
+	+	31	2
+	+	31	2
+	+	9	8
+	+	31	12
+	+	31	27
+	+	31	10
+	+	31	14
+	+	31	29
+	+	31	8
+	+	31	0
+	+	12	16
+	+	13	1
+	+	11	13
+	+	15	13
+	+	16	26
+	+	17	10
+	+	19	15
+	+	20	31
+	+	22	8
+	+	23	38
+	+	24	0
+	+	23	12
+	+	21	9
+	+	24	23
+	+	11	0
+	+	8	5
+	+	21	0
+	+	21	5
+	+	10	11
+	+	25	25
+	+	26	41
+	+	20	27
+	+	21	0
+	+	20	25
+	+	21	10
+	+	26	51
+	+	27	0
+	+	5	19
+
+> ~/chap06/fork3.c
+	"	1	0
+	^	11	58
+	.	11	57
+	+	6	11
+	+	7	11
+	+	14	2
+	+	15	10
+	+	19	4
+	+	16	26
+	+	17	11
+	+	26	2
+	+	27	15
+	+	29	16
+	+	30	10
+	+	32	8
+	+	4	19
+	+	29	16
+	+	30	0
+	+	28	26
+	+	10	0
+	+	11	57
+
+> ~/chap06/loop.c
+	"	6	14
+	^	6	15
+	.	6	14
+	+	3	11
+	+	4	9
+	+	6	14
+
+> ~/chap06/vfork.c
+	"	22	15
+	^	22	16
+	.	22	9
+	+	8	11
+	+	9	9
+	+	13	26
+	+	17	20
+	+	18	9
+	+	20	32
+	+	23	62
+	+	24	8
+	+	17	29
+	+	22	9
+
+> ~/lab06/env_path.c
+	"	8	20
+	^	8	21
+	.	8	20
+	+	5	11
+	+	6	0
+	+	3	18
+	+	8	23
+	+	9	20
+	+	8	34
+	+	6	37
+	+	8	56
+	+	9	9
+	+	7	46
+	+	8	35
+	+	6	21
+	+	8	20
+
+> ~/.profile
+	"	1	93
+	^	1	94
+	.	1	94
+	+	2	0
+	+	1	94
+
+> ~/.bash_history
+	"	1	0
+	^	2	0
+	.	1	4
+	+	1	4
+
+> ~/.bash_H
+	"	1	0
+
+> ~/.bash_profile
+	"	1	0
+	^	7	21
+	.	8	0
+	+	2	27
+	+	5	7
+	+	4	8
+	+	5	13
+	+	4	9
+	+	5	21
+	+	6	27
+	+	8	0
+
+> ~/chap06/setjmp.c
+	"	1	0
+	^	31	6
+	.	31	5
+	+	12	15
+	+	13	11
+	+	18	71
+	+	20	28
+	+	21	69
+	+	22	9
+	+	26	18
+	+	29	35
+	+	30	50
+	+	34	21
+	+	35	6
+	+	4	19
+	+	21	22
+	+	31	5
+
+> ~/chap06/fork3.h
+	"	1	0
+
+> ~/chap06/fork2.c
+	"	8	16
+	^	8	17
+	.	8	16
+	+	2	8
+	+	1	8
+	+	5	12
+	+	6	16
+	+	8	20
+	+	9	27
+	+	10	10
+	+	13	44
+	+	16	9
+	+	8	16
+
+> ~/chap06/fork.c
+	"	10	9
+	^	10	10
+	.	10	9
+	+	4	11
+	+	5	7
+	+	11	0
+	+	9	62
+	+	10	9
+
+> ~/lab06/pathdot.c
+	"	5	22
+	.	5	21
+	+	4	11
+	+	5	21
+
+> ~/chap06/env.c
+	"	13	8
+	^	13	9
+	.	13	8
+	+	2	18
+	+	6	11
+	+	7	22
+	+	9	13
+	+	10	23
+	+	11	7
+	+	13	8
+
+> ~/chap06/mainagru2.c
+	"	12	8
+	^	12	9
+	.	12	8
 	+	6	33
-	+	7	28
-	+	9	2
-	+	10	57
-	+	11	10
-	+	16	32
+	+	7	11
+	+	11	39
+	+	12	8
 
-> ~/chap04/chdir.c
-	"	16	1
-	^	16	2
-	.	16	0
-	+	7	15
-	+	8	24
-	+	16	0
+> ~/chap06/mainagru.c
+	"	11	8
+	^	11	9
+	.	11	8
+	+	2	19
+	+	6	33
+	+	7	7
+	+	11	8
+
+> ~/chap06/atexit.c
+	"	9	91
+	^	9	94
+	.	9	94
+	+	5	34
+	+	7	11
+	+	8	27
+	+	13	9
+	+	16	27
+	+	17	31
+	+	20	27
+	+	21	32
+	+	24	34
+	+	25	24
+	+	27	8
+	+	2	19
+	+	9	94
+
+> ~/test.c
+	"	1	0
+	^	4	11
+	.	3	10
+	+	1	0
+	+	2	11
+	+	3	0
+	+	1	6
+	+	4	17
+	+	3	10
 
 > ~/lab05/suffix.c
-	"	32	0
+	"	1	0
 	^	20	47
 	.	30	0
 	+	9	31
@@ -260,6 +633,33 @@ $
 	+	29	0
 	+	26	0
 	+	30	0
+
+> ~/chap04/afile
+	"	1	17
+	^	1	18
+	.	1	17
+	+	1	17
+
+> ~/chap04/symlink.c
+	"	16	32
+	^	16	33
+	.	16	32
+	+	4	7
+	+	3	7
+	+	6	33
+	+	7	28
+	+	9	2
+	+	10	57
+	+	11	10
+	+	16	32
+
+> ~/chap04/chdir.c
+	"	16	1
+	^	16	2
+	.	16	0
+	+	7	15
+	+	8	24
+	+	16	0
 
 > ~/chap04/dir.c
 	"	25	5
@@ -1346,171 +1746,3 @@ $
 	+	12	46
 	+	17	10
 	+	18	0
-
-> ~/.bash_profile
-	"	7	20
-	^	7	21
-	.	8	0
-	+	2	27
-	+	5	7
-	+	4	8
-	+	5	13
-	+	4	9
-	+	5	21
-	+	6	27
-	+	8	0
-
-> ~/.bash_history
-	"	1	0
-	^	2	0
-	.	1	4
-	+	1	4
-
-> ~/chap03/lseek2.c
-	"	17	0
-	^	23	10
-	.	23	9
-	+	10	12
-	+	11	0
-	+	16	53
-	+	18	57
-	+	21	52
-	+	23	9
-
-> ~/chap03/lseek2
-	"	1	0
-
-> ~/chap03/file.hole
-	"	1	0
-
-> ~/chap03/lseek.c
-	"	8	9
-	^	8	10
-	.	8	9
-	+	3	10
-	+	10	0
-	+	4	43
-	+	8	9
-
-> ~/chap03/write.c
-	"	4	6
-	^	7	66
-	.	7	65
-	+	3	12
-	+	4	58
-	+	6	5
-	+	5	3
-	+	6	3
-	+	5	2
-	+	6	161
-	+	6	4
-	+	7	67
-	+	8	1
-	+	7	65
-
-> ~/chap03/write
-	"	1	0
-
-> ~/chap03/creat.c
-	"	1	0
-	^	15	9
-	.	15	8
-	+	8	12
-	+	9	8
-	+	11	54
-	+	14	0
-	+	12	39
-	+	11	52
-	+	13	9
-	+	15	8
-
-> ~/chap03/testfile
-	"	4	0
-	^	4	0
-	.	3	0
-	+	3	0
-
-> ~/chap03/read.c
-	"	19	6
-	^	19	7
-	.	19	6
-	+	1	19
-	+	7	13
-	+	8	22
-	+	20	8
-	+	19	6
-
-> ~/chap03/creat
-	"	1	0
-
-> ~/close_exec.c
-	"	1	0
-	^	5	0
-	.	4	18
-	+	10	45
-	+	11	33
-	+	11	42
-	+	15	0
-	+	8	15
-	+	4	18
-
-> /etc/profile
-	"	27	0
-
-> ~/aa.c
-	"	1	0
-
-> ~/client.c
-	"	24	0
-	^	41	8
-	.	41	7
-	+	1	38
-	+	9	16
-	+	1	18
-	+	3	19
-	+	4	19
-	+	5	23
-	+	9	18
-	+	47	13
-	+	47	23
-	+	47	0
-	+	11	32
-	+	12	13
-	+	13	34
-	+	14	9
-	+	20	31
-	+	23	61
-	+	24	27
-	+	25	9
-	+	28	18
-	+	34	23
-	+	45	10
-	+	34	22
-	+	39	0
-	+	37	31
-	+	40	26
-	+	45	10
-	+	46	0
-	+	6	21
-	+	7	0
-	+	11	20
-	+	38	88
-	+	41	7
-
-> ~/clien
-	"	1	0
-
-> ~/a.c
-	"	1	0
-
-> /tmp/hello.c
-	"	1	4
-	^	1	5
-	.	1	4
-	+	1	4
-
-> /tmp/file2QK1bf
-	"	7	0
-
-> /bin/ls
-	"	1	0
