@@ -1,500 +1,516 @@
-ls
-vi test.c 
-rm test.c 
-ls
+./c
+vi fifo_clnt.c 
+./c 
+vi fifo_clnt.c 
+vi fifo_clnt.c 
+gcc fifo_serv.c -o c
 clear
-sl
+./c
 ls
-ls
-mkdir chap06
-ls
-cd chap06/
-ls
-vi atexit.c
-gcc atexit.c 
-vi atexit.c 
-gcc atexit.c 
+gcc fifo_clnt.c 
 ./a.out 
-vi atexit.c 
-vi atexit.c 
-c;ear
+./a.out 
+vi fifo_clnt.c 
+gcc fifo_clnt.c -o c
+clear
+./c
+ls
+ls
 clear
 ls
-vi mainagru.c
-gcc mainagru.c 
-./a.out a b c d
+turnin lab12 fifo_serv.c fifo_clnt.c 
+showlab lab10
+showlab lab11
+showlab lab12
+showlab lab13
+showlab lab09
+showlab lab9
+showlab lab8
+showlab
+cd /bin/
 ls
-vi mainagru2.c
-gcc mainagru2.c 
-./a.out 1 2 3 4 
+vi showlab 
+ls
 ll
-cd ..
-ls -al
-vi .bash_profile 
-env
 clear
-env
-OLDPWD
-echo OLDPWD
-echo $OLDPWD
-$OLDPWD
-wall
-id
-ls
+l
 clear
-cd chap06/
-ls
-vi env.c
-gcc env.c 
-./a.out 
-_
-_
-$_
-echo $_
-ls
-ls
-clear
-ls
-cd ..
-ls
-mkdir lab06
-ls
-cd lab06/
-ls
-vi pathdot.c
-ls
-cd 2018_sp_score/
-ls
-cd mid/
-ls
-ls -al
 w
 clear
-s
+ls
+cd midterm2/
+clear
+ls
+vi pipe_exam.c 
+cd /tmp/
+vi fifo.c
+ls
+cd ~
+sl
 ls
 clear
 ls
 clear
+who |sort
+route
+clea
+clear
+qwfqwef | sort
+|sort
+sort
+man sort
+man sort
+man 2 sort
+man 3 sort
+man 1 sort
+man fork
+man wow
+man qpp
+ls
+sort
+ls
+vi touch.txt
+sort touch.txt 
+clear
+ls
+who|sort
+clear
 ls
 ls
-cd chap06
+clear
 ls
-vi setjmp.c
-gcc setjmp.c 
-vi setjmp.c 
-gcc setjmp.c 
-./a.out 
-./a.out 
-env
-vi setjmp.c 
-gcc setjmp.c 
-./a.out 
-vi setjmp.c 
+cd lab12/
 ls
-cd chap06
+./server 
+clear
+vi fifo_serv.c 
 ls
-vi fork.c
-gcc fork.c 
-./a.out 
-gcc setjmp.c 
+vi fls
+clear
 ls
+vi fifo_serv.c 
+clear
+ls
+gcc fifo_serv.c -o s
+clear
+ls
+./s 
+clear
+ls
+vi fifo_serv.c 
+gcc fifo_serv.c 
 ./a.out 
-vi setjmp.c 
-gcc setjmp.c 
+ls
+clear
+ls
+vi fifo_serv.c 
+gcc fifo_serv.c -o s
+rm -rf myfifo 
+./o
+./s
+ls
+clear
+ls
+vi fifo_serv.c 
+./s 
+clear
+ls
+vi fifo_serv.c 
+./s 
+vi fifo_serv.c 
+./s 
+vi fifo_serv.c 
+gcc fifo_serv.c 
 ./a.out 
-vi setjmp.c 
-vi setjmp.c 
-vi setjmp.c 
-vi setjmp.c 
+vi fifo_serv.c 
+gcc fifo_serv.c 
+./a.out 
+vi fifo_serv.c 
+gcc fifo_serv.c -o s
+./s 
+vi fifo_serv.c 
+gcc fifo_serv.c 
+./a.out 
+vi fifo_serv.c 
+gcc fifo_serv.c -o s
+ls
+clear
+ls
+rm myfifo 
+ls
+./s
+./s
+man 3 strcmp
+man strcmp
+man 2 strcmp
+man 3 strcmp
+ls
+cd ..
+ls
+cd lab01
+ls
+vi copy
+vi copy.c
 ls
 ls -al
 rm *.swp
-rm .setjmp.c.swp 
-ls
-vi fork2.c
-gcc fork2.c 
-vi fork2.c 
-gcc fork2.c 
-./a.out 
+rm .copy.c.swp
+vi copy.c 
 clear
 ls
-vi setjmp.c 
-gcc setjmp.c 
-./a.out 
-vi setjmp.c 
-gcc setjmp.c 
-./a.out 
-gcc fork2.c 
-gcc fork.c
-./a.out 
-gcc fork2.c 
-./a.out 
-./a.out 
-./a.out 
-./a.out 
-./a.out 
-./a.out 
-./a.out 
-./a.out 
-./a.out 
-./a.out 
-vi fork3.c
-gcc fork3.c 
-vi fork3.h
-vi fork3.c 
-gcc fork3.c 
-./a.out 
-./a.out 
+ls
+cd ../
+ls
+cd lab12
+ls
+vi fifo_serv.c 
+gcc fifo_serv.c s
+gcc fifo_serv.c -o s
 clear
-vi fork3.c 
-./a.out 
-vi fork3.c 
-gcc fork3.c 
-./a.out 
-vi fork3.c 
-gcc fork3.c 
-./a.out 
-vi fork3.c 
-gcc fork3.c 
-./a.out 
-ㅊ
-clear
-l
+ls
+./s 
 w
+who
+w | sort
+man 3 atoi
+w
+cd ../lab08/
+ls
+clear
+ls
+vi exec_echo.c 
+./a.out 
+w
+clear
+wall
+ls
+vi exec_echo.c 
+ls
+./a.out 
+gcc exec_echo.c 
+./a.out 
+vi exec_echo.c 
+ls
+clear
+ls
+cd midterm2
+ls
+vi prof_code.c
+gcc prof_code.c 
+./a.out 
+vi prof_code.c 
+gcc p
+gcc prof_code.c 
+./a.out 
+clear
 ls
 cd ..
 ls
-cd lab06/
+cd lab06
 ls
-clear
-ls
-vi env_path.c
-man 3 strcat
 vi env_path.c 
-gcc env_path.c 
-./a.out 
-clear
 ./a.out 
 cd ..
-vi .bash_profile 
 ls
-ls -al
-vi .bash_H
-vi .bash_history 
-vi .profile 
-source .profile 
-cd lab06/
-a.out
-./a.out 
-./a.out 
+cd 2018_sp_score/
+ls
+cd lab6/
+ls
+cd ../..
+ls
+cd lab06
+ls
+vi env_path.c 
+ㅊclear
+clear
+ls
 cd ..
-vi .profile 
-source .profile 
-cd lab06/
 ls
-vi env_path.c 
-gcc env_path.c 
-vi env_path.c 
-gcc env_path.c 
-./a.out 
-echo $PATH
-vi env_path.c 
-gcc env_path.c 
-./a.out 
-vi env_path.c 
-echo $PATH
-./a.out 
-vi env_path.c 
-gcc env_path.c 
-./a.out 
-vi env_path.c 
-gcc env_path.c 
-vi env_path.c 
-gcc env_path.c 
-./a.out 
-ls
-ls
-vi env_path.c 
-gcc env_path.c 
-vi env_path.c 
-gcc env_path.c 
-./a.out 
-vi env_path.c 
-gcc env_path.c 
-./a.out 
-turnin lab6 env_path.c 
-showlab lab6
-showlab lab5
-showlab lab4
-showlab lab3
-showlab lab2
-showlab lab1
-showlab lab7
-clear
-ls
-clear
-ls
-do-release-upgrade
-clear
-ls
+cd exec06
 ls
 cd chap06
 ls
-showlab lab6
+clera
 clear
 ls
-vi vfork.c
-gcc vfork.c 
-./a.out 
-vi vfork.c 
-./a.out 
-gcc vfork.c 
-./a.out 
-./a.out 
-ls
-cd vfor
-vi vfork.c 
-gcc vfork.c 
-./a.out 
-ls
-vi loop.c
-gcc loop.c 
-./a.out 
-w
-ls
-clear
-ls
-cd ..
-ls
-mkdir lab07
-ls
-ls
-clear
-ls
-cd lab07
-ls
-ls
-clear
-ls
-vi waitpid1.c
-clear
-man 3 wait
-man 2 wait
-man 2 fork
-ls
-cd lab07/
-ls
-ls
-clear
-ls
-cd wait
-vi waitpid1.c 
-ls
-cd ..
-ls
-cd chap06/
-ls
-vi fork3.c 
-vi waitpid.c
-gcc waitpid.c 
-vi waitpid.c 
-gcc waitpid.c 
-./a.out 
-cd ..
-cd lab07/
-ls
-vi waitpid1.c ./../chap06/waitpid.c 
-clear
-ls
-vi waitpid1.c 
-ls
-gcc waitpid1.c 
-vi waitpid1.c 
-gcc waitpid1.c 
-ls
-./a.out 
-ls
-w
-ls
-turnin lab7 waitpid1.c 
-vi waitpid1.c 
-./a.out 
-ls
-clear
-ls
-clear
-ls
-w
-cd lab07
-ls
-./a.out 
-ls
-cd ..
-cd chap06/
-ls
-clear
-ls
-vi waitpid.c 
-vi wait1.c
-gcc wait1.c 
-vi wait1.c 
-gcc wait1.c 
-./a.out 
-vi wait1.c 
-gcc wait1.c 
-./a.out 
-ls
-vi waitpid.c 
-gcc waitpid.c 
-./a.out 
-cd ..
-cd lab07/
-ls
-./a.out 
-ls
-clear
-ls
-cd ..
-ls
-cd chap06/
-ls
-mkdir race_condition
-ls
-cd race_condition/
-ls
-cp /tmp/ourhdr.h ourhdr.h
-cp /tmp/tellwait.h tellwait.h
-cp /tmp/tellwait.c tellwait.c
-ls
-clear
-ls
-vi tellwait1.c
-vi ourhdr.h 
-ls
-vi tellwait
-vi tellwait.c
-vi tellwait1.c
-gcc tellwait1.c 
-./a.out 
-./a.out 
-./a.out 
-./a.out 
-./a.out 
-./a.out 
-./a.out 
-vi tellwait1.c 
-gcc tellwait1.c 
-./a.out 
-a.out
-./a.out 
-./a.out 
-./a.out 
-./a.out 
-./a.out 
-./a.out 
-vi tellwait2.c
-gcc tellwait2.c 
-gcc tellwait2.c
-ls
-vi tellwait2.c 
-gcc tellwait2.c 
-vi tellwait
-vi tellwait2.c 
-gcc tellwait2.c 
-vi tellwait2.c 
-gcc tellwait2.c 
-./a.out 
-./a.out 
-./a.out 
-vi tellwait2.c 
-gcc tellwait2.c 
-./a.out 
-./a.out 
-./a.out 
-clear
-./a.out 
-./a.out 
-ls
-clear
-ls
-cd chap06/
-ls
-vi execl.c
-gcc execl.c 
-vi execl.c 
-gcc execl.c 
-man 3 exit
-man 2 eit
-man 2 exit
-vi execl.c 
-clear
-ls
-./a.out 
-gcc execl.c 
-./a.out 
-ls
-ls -al
-ls -l
-clear
-ㅣ
-./a.out 
-vi execl.c 
-gcc execl.c 
-./a.out 
-clear
-ls
-showlab lab7
-ls
-clear
-ls
-ls
-clear
-ls
-mv execl.c exec.c
-ls
-vi execl.c
-gcc execl.c 
-./a.out 
-./a.out -l
-./a.out -al
-clear
-lw
-ls
-ls
-clear
-s
-ls
-vi execv.c
-gcc exse
-gc execv.c 
-f
-gcc execv.c 
-./a.out 
-clear
-./a.out 
-ls
-vi progexe.c
-gcc progexe.c 
+vi atexit.c 
 ./a.
 ls
-gcc progexe.c 
-vi progexe.c 
-vi progexe.c 
-clear
-gcc progexe.c 
-vi progexe.c o
-vi progexe.c
-gcc progexe.c 
-./a.out
+gcc atexit.c 
+./a.out 
+vi atexit.c 
+gcc setjmp.c 
+./a.out 
+vi setjmp.c 
 ls
-vi progexe.c 
-gcc progexe.c 
-vi progexe.c 
-gcc progexe.c 
-gcc progexe.c 123
-gcc progexe.c
-gcc progexe.c
 clear
 ls
-gcc progexe.c 
-vi progexe.c 
+ls
+./a.out 
+ls
+vi fork.c
+gcc fork.c
+./a.out 
+ls
+clear
+ls
+cd ..
+ls
+cd lab12
+ls
+vi fifo_clnt.c 
+ls
+cd ..
+ls
+cd chap06/
+ls
+vi vfork.c 
+gcc vfork.c 
+./a.out 
+ls
+clear
+ls
+vi wait1.c 
+gcc wait1.c 
+./a.out 
+ls
+vi wait1.c 
+gcc wait1.c 
+./a.out 
+vi wait1.c 
+gcc wait1.c 
+vi wait1.c 
+gcc wait1.c 
+./a.out 
+vi wait1.c 
+clear
+gcc wait1.c 
+./a.out 
+vi wait
+vi wait1.c 
+clear
+ls
+gcc wait1.c 
+./a.out 
+clear
+gcc wait1.c
+vi wait1.c 
+cd ..
+ls
+cd lab08/
+ls
+vi exec_echo.c 
+ls
+cd ..
+ls
+cd chap06/
+ls
+vi fork2.c 
+vi waitpid.c 
+gcc waitpid.c 
+./a.out 
+./a.out 
+cd ..
+ls
+cd lab07/
+ls
+vi waitpid1.c 
+cd lab08
+ls
+ls
+cd ../lab08/
+ls
+vi exec_echo.c 
+gcc exec_echo.c 
+./a.out 
+vi exec_echo.c 
+gcc exec_echo.c 
+./a.out 
+vi exec_echo.c 
+vi exec_echo.c 
+vi exec_echo.c 
+clear
+ls
+gcc exec_echo.c 
+./a.
+./a.
+vi exec_echo.c 
+gcc exec_echo.c 
+./a.out 
+vi exec_echo.c 
+gcc exec_echo.c 
+./a.out 
+vi exec_echo.c 
+gcc exec_echo.c 
+clear
+./a.out 
+vi exec_echo.c 
+clear
+ls
+gcc exec_echo.c 
+./a.out 
+vi exec_echo.c 
+gcc exec_echo.c 
+./a.out 
+vi exec_echo.c 
+gccc exec_echo.c 
+gcc exec_echo.c 
+clear
+./a.out 
+clear
+ls
+vi exec_echo.c 
+gcc exec_echo.c 
+./a.out 
+vi exec_echo.c 
+vi exec_echo.c 
+gcc exec_echo.c 
+./a.out 
+vi exec_echo.c 
+cd ..
+ls
+cd lab07/
+ls
+vi waitpid1.c 
+man 2 execl
+man 2 exec
+man 3 execl
+clear
+ls
+cd ..
+ls
+cd lab08/
+ls
+vi exec_echo.c 
+gcc exec_echo.c 
+./a.out 
+ls
+clear
+ls
+cd ..
+ls
+cd lab12
+ls
+l
+ls
+vi myfifo 
+clear
+ls
+clear
+ls
+cd lab11
+ls
+clear
+ls
+clear
+ls
+ls
+clear
+ls
+cd lab07
+ls
+vi waitpid1.c 
+ls
+ls -al
+rm -rf .waitpid1.c.swp 
+vi waitpid1.c 
+ls
+clear
+ls
+cd ..
+ls
+cd lab08
+ls
+vi exec_echo.c 
+ls
+cd ..
+ls
+cd lab09
+ls
+vi exec_exit.c 
+cd ..
+ls
+cd lab11/
+ls
+vi popen_pipe.c 
+man fread
+man fread
+man 2 fread
+man 3 fread
+clear
+ls
+man fread
+man 3 fread
+ls
+clear
+ls
+man fread
+man fread
+clear
+sl
+ls
+WIF
+clear
+ls
+ls
+cd lab11
+ls
+vi popen_pipe.c 
+ls
+vi popen_pipe.c 
+man fread
+ls
+vi popen_pipe.c 
+man fread
+vi popen_pipe.c 
+clear
+ls
+man 3 fread
+w
+w | sort
+clear
+ls
+mkdir chap08
+cd chap08
+ls
+clear
+vi like_server.c
+gcc like_server.c 
+vi like_server.c 
+gcc like_server.c 
+vi like_server.c 
+vi like_server.c 
+gcc like_server.c 
+vi like_client.c
+gcc like_client.c 
+vi like_client.c 
+gcc like_client.c 
+vi like_client.c 
+gcc like_client.c 
+clear
+ls
+gcc like_server.c -o server
+gcc like_client.c -o client
+./server
+ls
+w
+clear
+ls
+cd chap08/
+ls
+ls
+clear
+w
+ls
+vi hi.c 
+rm hi.c 
+vi test.c
+gcc test.c 
+./a.out 
+clear
+ls
+vi test.c 
+gcc test.c 
+ls
+clear
+w

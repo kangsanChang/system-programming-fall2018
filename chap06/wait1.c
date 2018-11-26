@@ -12,7 +12,6 @@ int main(){
 	int exit_code;
 
 	printf("fork program starting\n");
-	pid = fork();
 	switch(pid){
 		case -1:
 				perror("fork failed");
@@ -31,17 +30,18 @@ int main(){
 
 	for(;n>0;n--){
 		puts(message);
-		sleep(1);
+		usleep(500);
 	}
 
 	if(pid != 0){
+		// parent process
 		int stat_val;
 		pid_t child_pid;
 		child_pid = wait(&stat_val);
 
 		printf("Child has finished: PID = %d\n", child_pid);
 		if(WIFEXITED(stat_val))
-				printf("Child exited with code %d \n",WEXITSTATUS(stat_val));
+			printf("Child exited with code %d \n",WEXITSTATUS(stat_val));
 		else
 			printf("Child Terminated abnormally\n");
 	}
