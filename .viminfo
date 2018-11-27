@@ -13,8 +13,9 @@ $
 # 명령 줄 히스토리 (새것부터 오래된 것 순):
 :wq
 :q
-::q
 :w
+:q!
+::q
 :Q
 :Wq
 :vs ./../chap06/fork3.c
@@ -26,7 +27,6 @@ $
 :vs ./../chap06/progexe.c
 :vs ./../chap06/waitpid.c
 :sp ./../chap06/waitpid.c
-:q!
 :ㅂq
 :vsplit
 :qwq
@@ -43,42 +43,71 @@ $
 # 입력 줄 히스토리 (새것부터 오래된 것 순):
 
 # 레지스터:
-"0	LINE	0
-				printf("Parent: Waiting for children \n");		
+""0	LINE	0
+		for(int i=1; i<=T; i++){
+			for(int j=1; j<=W, j++){
+				printf("max[1][%d][%d] : %d\n",i,j,max[1][i][j]);
+			}
 "1	LINE	0
-				printf("Parent: Waiting for children \n");		
+		for(int i=1; i<=T; i++){
+			for(int j=1; j<=W, j++){
+				printf("max[1][%d][%d] : %d\n",i,j,max[1][i][j]);
+			}
 "2	LINE	0
-				wpid = wait(&status);
+			printf("max[][%d][]");
 "3	LINE	0
-		//while((pid = wait(&status)) > 0){}
+	
 "4	LINE	0
-			pid = fork();
+		}
 "5	LINE	0
-		for(int i=0; i<5; i++)
+			}
 "6	LINE	0
-			printf("%d : ",getpid());
+				if(plumTree[i] != j
 "7	LINE	0
-		pid = fork();
+			for(int j=1; j<=i && j<=W ; j++){
 "8	LINE	0
-			printf("Parent Process start waiting\n");
+		for(int i=1; i<=T; i++){ddd
 "9	LINE	0
-			printf("%ld is bufsize \n",nread);
-""-	CHAR	0
-	e
+		int T, W;
+"-	CHAR	0
+	5
 
 # 파일 마크:
-'0  27  1  ~/test.c
-'1  24  0  ~/test.c
-'2  1  0  ~/hi.c
-'3  27  28  ~/chap08/like_client.c
-'4  14  20  ~/chap08/like_client.c
-'5  44  9  ~/chap08/like_client.c
-'6  12  9  ~/chap08/like_server.c
-'7  17  56  ~/chap08/like_server.c
-'8  4  12  ~/chap08/like_server.c
-'9  47  0  ~/chap08/like_server.c
+'0  35  12  ~/plumTree.c
+'1  13  31  ~/plumTree.c
+'2  27  19  ~/plumTree.c
+'3  33  43  ~/plumTree.c
+'4  11  0  ~/plumTree.c
+'5  20  12  ~/plumTree.c
+'6  17  14  ~/plumTree.c
+'7  25  0  ~/plumTree.c
+'8  15  21  ~/plumTree.c
+'9  6  19  ~/plumTree.c
 
 # 점프목록 (새것이 먼저):
+-'  35  12  ~/plumTree.c
+-'  1  0  ~/plumTree.c
+-'  13  31  ~/plumTree.c
+-'  27  19  ~/plumTree.c
+-'  33  43  ~/plumTree.c
+-'  25  1  ~/plumTree.c
+-'  11  0  ~/plumTree.c
+-'  20  12  ~/plumTree.c
+-'  17  14  ~/plumTree.c
+-'  15  21  ~/plumTree.c
+-'  6  19  ~/plumTree.c
+-'  42  0  ~/plumTree.c
+-'  39  40  ~/plumTree.c
+-'  11  0  ~/lab13/socket_lab.c
+-'  1  0  ~/lab13/socket_lab.c
+-'  1  0  ~/lab13/socket
+-'  15  1  ~/lab13/socket_lab.c
+-'  20  0  ~/lab13/socket_lab.c
+-'  21  65  ~/lab13/serv.c
+-'  1  0  ~/lab13/serv.c
+-'  8  4  ~/lab13/serv.c
+-'  5  18  ~/lab13/serv.c
+-'  28  0  ~/lab13/serv.c
 -'  27  1  ~/test.c
 -'  1  0  ~/test.c
 -'  24  0  ~/test.c
@@ -153,32 +182,153 @@ $
 -'  18  2  ~/lab12/fifo_serv.c
 -'  16  37  ~/lab01/copy.c
 -'  1  0  ~/lab01/copy.c
--'  1  0  ~/lab01/copy
--'  4  0  ~/lab12/fifo_clnt.c
--'  23  19  ~/lab12/fifo_serv.c
--'  13  23  ~/lab12/fifo_serv.c
--'  19  2  ~/lab12/fifo_serv.c
--'  24  1  ~/lab12/fifo_serv.c
--'  4  0  ~/lab12/fifo_serv.c
--'  1  0  ~/lab12/c
--'  8  0  ~/lab12/fifo_clnt.c
--'  1  0  ~/lab12/fifo_
--'  1  0  ~/lab12/fifo_client.c
--'  1  0  ~/lab12/fls
--'  1  0  /tmp/myfifo
--'  31  8  ~/lab12/fifo_client.c
--'  39  0  ~/lab12/fifo_serv.c
--'  17  0  ~/lab11/popen_pipe.c
--'  14  12  ~/lab11/popen_pipe.c
--'  20  2  ~/lab12/fifo_serv.c
--'  12  28  ~/lab11/popen_pipe.c
--'  24  0  ~/midterm2/pipe_exam.c
--'  1  0  ~/midterm2/pipe_exam.c
--'  1  0  ~/chap03/read.c
--'  1  0  ~/chap03/close_exec.c
--'  1  0  ~/chap03/access.c
 
 # 파일내의 마크 히스토리 (새것부터 오래된 순):
+
+> ~/plumTree.c
+	"	35	12
+	^	35	13
+	.	35	12
+	+	14	35
+	+	15	12
+	+	15	25
+	+	14	10
+	+	15	37
+	+	14	14
+	+	15	36
+	+	33	13
+	+	20	34
+	+	33	44
+	+	38	0
+	+	40	1
+	+	38	28
+	+	39	1
+	+	4	18
+	+	4	38
+	+	39	42
+	+	36	20
+	+	37	10
+	+	38	0
+	+	36	19
+	+	39	45
+	+	36	17
+	+	39	78
+	+	40	0
+	+	38	27
+	+	40	5
+	+	41	21
+	+	39	47
+	+	41	40
+	+	6	35
+	+	14	0
+	+	20	26
+	+	6	29
+	+	15	1
+	+	6	19
+	+	2	19
+	+	7	0
+	+	15	11
+	+	20	12
+	+	15	16
+	+	15	13
+	+	15	32
+	+	16	1
+	+	15	5
+	+	15	20
+	+	15	8
+	+	16	24
+	+	17	24
+	+	16	16
+	+	17	26
+	+	13	37
+	+	19	0
+	+	15	0
+	+	19	32
+	+	36	8
+	+	7	7
+	+	15	0
+	+	17	14
+	+	20	12
+	+	9	0
+	+	10	7
+	+	5	35
+	+	25	25
+	+	25	35
+	+	25	3
+	+	10	17
+	+	25	21
+	+	25	0
+	+	10	6
+	+	39	27
+	+	34	8
+	+	13	26
+	+	10	20
+	+	34	31
+	+	35	29
+	+	25	8
+	+	25	25
+	+	25	17
+	+	25	26
+	+	25	2
+	+	25	0
+	+	25	0
+	+	21	0
+	+	25	2
+	+	25	2
+	+	26	0
+	+	26	0
+	+	29	3
+	+	30	1
+	+	28	42
+	+	22	19
+	+	27	19
+	+	10	7
+	+	23	42
+	+	28	42
+	+	34	7
+	+	39	12
+	+	13	31
+	+	35	12
+
+> ~/lab13/socket_lab.c
+	"	11	0
+	^	15	3
+	.	15	1
+	+	1	22
+	+	8	13
+	+	9	25
+	+	11	16
+	+	17	13
+	+	11	52
+	+	17	59
+	+	10	18
+	+	14	2
+	+	15	9
+	+	17	72
+	+	19	13
+	+	20	0
+	+	10	13
+	+	15	1
+	+	16	0
+	+	15	1
+
+> ~/lab13/serv.c
+	"	21	65
+	^	21	66
+	.	18	112
+	+	8	8
+	+	9	27
+	+	11	16
+	+	27	12
+	+	5	18
+	+	8	4
+	+	13	103
+	+	15	27
+	+	14	60
+	+	15	31
+	+	16	0
+	+	15	43
+	+	18	112
 
 > ~/test.c
 	"	27	1
@@ -1873,21 +2023,3 @@ $
 	+	15	55
 	+	16	9
 	+	17	0
-
-> ~/midterm1/afile
-	"	1	0
-
-> ~/midterm1/dup2
-	"	1	0
-
-> ~/midterm1/lab2.c
-	"	8	10
-	^	8	11
-	.	8	10
-	+	7	12
-	+	8	43
-	+	9	43
-	+	11	51
-	+	5	20
-	+	3	17
-	+	8	10

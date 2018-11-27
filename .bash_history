@@ -514,3 +514,129 @@ gcc test.c
 ls
 clear
 w
+man 3 strcpy
+ls
+cd lab13/
+ls
+vi socket_lab.c
+gcc socket_lab.c -o c
+vi socket_lab.c 
+vi socket_lab.c 
+gcc socket_lab.c -o c
+./c
+./c
+vi socket_lab.c 
+ls
+vi socket
+ls
+./c 
+ls
+vi socket_lab.c 
+gcc socket_lab.c -o c
+ls
+./c
+./c
+ls
+vi socket
+vi socket_lab.c 
+gcc socket_lab.c -o c
+ls
+clear
+./c
+ls
+./c
+ls
+gcc socket_lab.c -o c
+./c
+ls
+vi socket
+vi socket_lab.c 
+./c
+ls
+clear
+ls
+turnin lab13 socket_lab.c 
+showlab lab13
+showlab lab12
+showlab lab11
+showlab lab10
+clear
+ls
+w
+ping
+clear
+ls
+ping www.naver.com
+ls
+w
+clear
+ls
+mkdir lab13
+ls
+cd lab13
+ls
+clear
+ls
+cd ..
+ls
+gs
+ga
+gs
+git add lab*
+gs
+git add chap0*
+ls
+gs
+cd 2018_sp_score/
+ls
+cd ..
+ls
+gs
+gc
+add new labs"
+git push origin master
+clear
+ls
+cd lab13/
+ls
+gs
+clear
+l
+clear
+vi serv.c
+ls
+ls
+gcc serv.c -o s
+ls
+man unlink
+man 2 unlink
+vi serv.c 
+ls
+gcc serv.c -o s
+vi serv.c 
+gcc serv.c 
+gcc serv.c -o s
+ls
+rm ./a.out 
+vi serv.c 
+./s 
+./s 
+./s
+./s
+ls
+gcc serv.c -o s
+clear
+ls
+./s
+clear
+ls
+rm socket
+ls
+claer
+ls
+clear
+ls
+./s
+ls
+clear
+ls
