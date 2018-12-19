@@ -14,7 +14,7 @@ int main() {
 	struct sockaddr_in client_addr, server_addr;
 	char buf[MAXBUF];
 
-	strcpy(buf, "I miss you already!");
+	strcpy(buf, "exit");
 
 	// create socket
 	if((ssock = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP)) < 0 ){

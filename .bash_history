@@ -1,642 +1,524 @@
-./c
-vi fifo_clnt.c 
-./c 
-vi fifo_clnt.c 
-vi fifo_clnt.c 
-gcc fifo_serv.c -o c
-clear
-./c
-ls
-gcc fifo_clnt.c 
-./a.out 
-./a.out 
-vi fifo_clnt.c 
-gcc fifo_clnt.c -o c
-clear
-./c
-ls
-ls
+gcc tcpserver.c 
 clear
 ls
-turnin lab12 fifo_serv.c fifo_clnt.c 
-showlab lab10
-showlab lab11
-showlab lab12
-showlab lab13
-showlab lab09
-showlab lab9
-showlab lab8
-showlab
-cd /bin/
-ls
-vi showlab 
-ls
-ll
+gcc tcpserver.c -o s
 clear
-l
-clear
-w
-clear
-ls
-cd midterm2/
-clear
-ls
-vi pipe_exam.c 
-cd /tmp/
-vi fifo.c
-ls
-cd ~
-sl
-ls
-clear
-ls
-clear
-who |sort
-route
-clea
-clear
-qwfqwef | sort
-|sort
-sort
-man sort
-man sort
-man 2 sort
-man 3 sort
-man 1 sort
-man fork
-man wow
-man qpp
-ls
-sort
-ls
-vi touch.txt
-sort touch.txt 
-clear
-ls
-who|sort
-clear
-ls
-ls
-clear
-ls
-cd lab12/
-ls
-./server 
-clear
-vi fifo_serv.c 
-ls
-vi fls
-clear
-ls
-vi fifo_serv.c 
-clear
-ls
-gcc fifo_serv.c -o s
-clear
-ls
-./s 
-clear
-ls
-vi fifo_serv.c 
-gcc fifo_serv.c 
-./a.out 
-ls
-clear
-ls
-vi fifo_serv.c 
-gcc fifo_serv.c -o s
-rm -rf myfifo 
-./o
 ./s
-ls
+vi tcpserver.c 
 clear
-ls
-vi fifo_serv.c 
-./s 
-clear
-ls
-vi fifo_serv.c 
-./s 
-vi fifo_serv.c 
-./s 
-vi fifo_serv.c 
-gcc fifo_serv.c 
-./a.out 
-vi fifo_serv.c 
-gcc fifo_serv.c 
-./a.out 
-vi fifo_serv.c 
-gcc fifo_serv.c -o s
-./s 
-vi fifo_serv.c 
-gcc fifo_serv.c 
-./a.out 
-vi fifo_serv.c 
-gcc fifo_serv.c -o s
-ls
-clear
-ls
-rm myfifo 
-ls
-./s
-./s
-man 3 strcmp
-man strcmp
-man 2 strcmp
-man 3 strcmp
-ls
-cd ..
-ls
-cd lab01
-ls
-vi copy
-vi copy.c
-ls
-ls -al
-rm *.swp
-rm .copy.c.swp
-vi copy.c 
-clear
-ls
-ls
-cd ../
-ls
-cd lab12
-ls
-vi fifo_serv.c 
-gcc fifo_serv.c s
-gcc fifo_serv.c -o s
-clear
-ls
-./s 
-w
-who
-w | sort
-man 3 atoi
-w
-cd ../lab08/
-ls
-clear
-ls
-vi exec_echo.c 
-./a.out 
-w
-clear
-wall
-ls
-vi exec_echo.c 
-ls
-./a.out 
-gcc exec_echo.c 
-./a.out 
-vi exec_echo.c 
-ls
-clear
-ls
-cd midterm2
-ls
-vi prof_code.c
-gcc prof_code.c 
-./a.out 
-vi prof_code.c 
-gcc p
-gcc prof_code.c 
-./a.out 
-clear
-ls
-cd ..
-ls
-cd lab06
-ls
-vi env_path.c 
-./a.out 
-cd ..
-ls
-cd 2018_sp_score/
-ls
-cd lab6/
-ls
-cd ../..
-ls
-cd lab06
-ls
-vi env_path.c 
-ㅊclear
-clear
-ls
-cd ..
-ls
-cd exec06
-ls
-cd chap06
-ls
-clera
-clear
-ls
-vi atexit.c 
-./a.
-ls
-gcc atexit.c 
-./a.out 
-vi atexit.c 
-gcc setjmp.c 
-./a.out 
-vi setjmp.c 
-ls
-clear
-ls
-ls
-./a.out 
-ls
-vi fork.c
-gcc fork.c
-./a.out 
-ls
-clear
-ls
-cd ..
-ls
-cd lab12
-ls
-vi fifo_clnt.c 
-ls
-cd ..
-ls
-cd chap06/
-ls
-vi vfork.c 
-gcc vfork.c 
-./a.out 
-ls
-clear
-ls
-vi wait1.c 
-gcc wait1.c 
-./a.out 
-ls
-vi wait1.c 
-gcc wait1.c 
-./a.out 
-vi wait1.c 
-gcc wait1.c 
-vi wait1.c 
-gcc wait1.c 
-./a.out 
-vi wait1.c 
-clear
-gcc wait1.c 
-./a.out 
-vi wait
-vi wait1.c 
-clear
-ls
-gcc wait1.c 
-./a.out 
-clear
-gcc wait1.c
-vi wait1.c 
-cd ..
-ls
-cd lab08/
-ls
-vi exec_echo.c 
-ls
-cd ..
-ls
-cd chap06/
-ls
-vi fork2.c 
-vi waitpid.c 
-gcc waitpid.c 
-./a.out 
-./a.out 
-cd ..
-ls
-cd lab07/
-ls
-vi waitpid1.c 
-cd lab08
-ls
-ls
-cd ../lab08/
-ls
-vi exec_echo.c 
-gcc exec_echo.c 
-./a.out 
-vi exec_echo.c 
-gcc exec_echo.c 
-./a.out 
-vi exec_echo.c 
-vi exec_echo.c 
-vi exec_echo.c 
-clear
-ls
-gcc exec_echo.c 
-./a.
-./a.
-vi exec_echo.c 
-gcc exec_echo.c 
-./a.out 
-vi exec_echo.c 
-gcc exec_echo.c 
-./a.out 
-vi exec_echo.c 
-gcc exec_echo.c 
+vi tcpserver.c 
+vi tcpserver.c 
 clear
 ./a.out 
-vi exec_echo.c 
+vi tcpserver.c 
+gcc tcpserver.c 
 clear
 ls
-gcc exec_echo.c 
-./a.out 
-vi exec_echo.c 
-gcc exec_echo.c 
-./a.out 
-vi exec_echo.c 
-gccc exec_echo.c 
-gcc exec_echo.c 
-clear
-./a.out 
-clear
-ls
-vi exec_echo.c 
-gcc exec_echo.c 
-./a.out 
-vi exec_echo.c 
-vi exec_echo.c 
-gcc exec_echo.c 
-./a.out 
-vi exec_echo.c 
-cd ..
-ls
-cd lab07/
-ls
-vi waitpid1.c 
-man 2 execl
-man 2 exec
-man 3 execl
-clear
-ls
-cd ..
-ls
-cd lab08/
-ls
-vi exec_echo.c 
-gcc exec_echo.c 
-./a.out 
-ls
-clear
-ls
-cd ..
-ls
-cd lab12
-ls
-l
-ls
-vi myfifo 
-clear
-ls
-clear
-ls
-cd lab11
-ls
-clear
-ls
-clear
-ls
-ls
-clear
-ls
-cd lab07
-ls
-vi waitpid1.c 
-ls
-ls -al
-rm -rf .waitpid1.c.swp 
-vi waitpid1.c 
-ls
-clear
-ls
-cd ..
-ls
-cd lab08
-ls
-vi exec_echo.c 
-ls
-cd ..
-ls
-cd lab09
-ls
-vi exec_exit.c 
-cd ..
-ls
-cd lab11/
-ls
-vi popen_pipe.c 
-man fread
-man fread
-man 2 fread
-man 3 fread
-clear
-ls
-man fread
-man 3 fread
-ls
-clear
-ls
-man fread
-man fread
-clear
-sl
-ls
-WIF
-clear
-ls
-ls
-cd lab11
-ls
-vi popen_pipe.c 
-ls
-vi popen_pipe.c 
-man fread
-ls
-vi popen_pipe.c 
-man fread
-vi popen_pipe.c 
-clear
-ls
-man 3 fread
-w
-w | sort
-clear
-ls
-mkdir chap08
-cd chap08
-ls
-clear
-vi like_server.c
-gcc like_server.c 
-vi like_server.c 
-gcc like_server.c 
-vi like_server.c 
-vi like_server.c 
-gcc like_server.c 
-vi like_client.c
-gcc like_client.c 
-vi like_client.c 
-gcc like_client.c 
-vi like_client.c 
-gcc like_client.c 
-clear
-ls
-gcc like_server.c -o server
-gcc like_client.c -o client
-./server
-ls
-w
-clear
-ls
-cd chap08/
-ls
-ls
-clear
-w
-ls
-vi hi.c 
-rm hi.c 
-vi test.c
-gcc test.c 
-./a.out 
-clear
-ls
-vi test.c 
-gcc test.c 
-ls
-clear
-w
-man 3 strcpy
-ls
-cd lab13/
-ls
-vi socket_lab.c
-gcc socket_lab.c -o c
-vi socket_lab.c 
-vi socket_lab.c 
-gcc socket_lab.c -o c
-./c
-./c
-vi socket_lab.c 
-ls
-vi socket
-ls
-./c 
-ls
-vi socket_lab.c 
-gcc socket_lab.c -o c
-ls
-./c
-./c
-ls
-vi socket
-vi socket_lab.c 
-gcc socket_lab.c -o c
-ls
+vi tcpserver.c 
+gcc tcpserver.c 
 clear
 ./c
-ls
+clear
 ./c
+clear
 ls
-gcc socket_lab.c -o c
+vi tcpclient.c 
+gcc tcpclient.c -o c
+clear
 ./c
-ls
-vi socket
-vi socket_lab.c 
-./c
-ls
 clear
-ls
-turnin lab13 socket_lab.c 
-showlab lab13
-showlab lab12
-showlab lab11
-showlab lab10
-clear
-ls
-w
-ping
-clear
-ls
-ping www.naver.com
-ls
-w
-clear
-ls
-mkdir lab13
-ls
-cd lab13
-ls
-clear
-ls
-cd ..
-ls
-gs
-ga
-gs
-git add lab*
-gs
-git add chap0*
-ls
-gs
-cd 2018_sp_score/
-ls
-cd ..
-ls
-gs
-gc
-add new labs"
-git push origin master
-clear
-ls
-cd lab13/
-ls
-gs
-clear
-l
-clear
-vi serv.c
-ls
-ls
-gcc serv.c -o s
-ls
-man unlink
-man 2 unlink
-vi serv.c 
-ls
-gcc serv.c -o s
-vi serv.c 
-gcc serv.c 
-gcc serv.c -o s
 ls
 rm ./a.out 
-vi serv.c 
-./s 
-./s 
-./s
-./s
+vi tcpclient.c 
+clear
 ls
-gcc serv.c -o s
+gcc tcpclient.c -o c
+./c
+qwer
+clear
+./c
+ls
+clear
+ls
+vi tcpclient.c 
+clear
+ls
+turnin tcp_project tcpserver.c tcpclient.c 
+clear
+ls
+cd project/p3/
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+vi tcpserver.c 
+ls
+gcc tcpserver.c -o s
+man 3 wait
+man 2 wait
+vi tcpserver.c 
+man 2 wait
+vi tcpserver.c 
+clear
+ls
+gcc tcpserver.c -o s
+ls
+./s
+./s
+clear
+ls
+vi tcpserver.c 
+gcc tcpserver.c 
+./a.out 
+vi tcpserver.c 
+gcc tcpserver.c -o s
+rm ./a.out 
+vi tcpclient.c 
+gcc tcpclient.c -o c
+ls
 clear
 ls
 ./s
+vi tcpserver.c 
+ls
 clear
 ls
-rm socket
+gcc tcpserver.c 
+./a.out 
 ls
+clear
+ls
+vi tcpserver.c 
+gcc tcpserver.c -o s
+ls
+rm ./a.out 
+ls
+clear
+ls
+./s
+vi tcpserver.c 
+clear
+ls
+vi tcpserver.c 
+vi tcpserver.c 
+ls
+vi tcpclient.c 
+vi tcpserver.c 
+gcc tcpserver.c -o s
+vi tcpserver.c
+vi tcpserver.c
+gcc tcpserver.c -o s
+vi tcpserver.c
+gcc tcpserver.c -o s
+vi tcpserver.c
+gcc tcpserver.c -o s
+gcc tcpserver.c -o s
+vi tcpserver.c
+gcc tcpserver.c -o s
+clear
+gcc tcpserver.c -o s
+vi tcpserver.c
+vi tcpserver.c
+gcc tcpserver.c 
+man 3 strpbrk
+gcc tcpserver.c 
+vi tcpserver.c
+gcc tcpserver.c 
+clear
+gcc tcpserver.c 
+gcc tcpserver.c 
+vi tcpserver.c
+gcc tcpserver.c 
+ls
+clear
+sl
+ls
+clear
+ls
+gcc tcpclient.c -o c
+gcc tcpserver.c -o s
+clear
+ls
+./s
+vi tcpserver.c 
+gcc tcpserver.c -o s
+vi tcpserver.c 
+gcc tcpserver.c -o s
+clear
+gcc tcpserver.c -o s
+vi tcpserver.c 
+gcc tcpserver.c -o s
+gcc tcpserver.c -o s
+vi tcpserver.c 
+vi tcpserver.c 
+vi tcpserver.c 
+gcc tcpserver.c -o s
+gcc tcpserver.c -o s
+vi tcpserver.c 
+gcc tcpserver.c -o s
+clear
+gcc tcpserver.c -o s
+vo tcpserver.c 
+vi tcpserver.c 
+clear
+ls
+gcc tcpserver.c -o s
+vi tcpserver.c 
+gcc tcpserver.c -o s
+vi tcpserver.c 
+gcc tcpserver.c -o s
+clear
+ls
+./s
+./a.out 
+clear
+./a.out 
+clear
+./a.out 
+clear
+./a.out 
+clear
+ls
+./a.out 
+clear
+./s
+clear
+./s
+clear
+./s
+clear
+ls
+clear
+vi tcpserver.c 
+clear
+ls
+gcc tcpserver.c -o s
+gcc tcpserver.c -o sclear
+clear
+gcc tcpserver.c 
+clear
+gcc tcpserver.c 
+vi tcpserver.c 
+vi tcpserver.c 
+gcc tcpserver.c 
+./a.out 
+vi tcpserver.c 
+clear
+gcc tcpserver.c 
+./a.out 
+clear
+ls
+gcc tcpserver.c -o s
+clear
+./s
+clear
+./s
+vi tcpserver.c 
+vu tcpserver.c 
+vi tcpserver.c 
+gcc tcpserver.c -o s
+clear
+./s
+ls
+ls
+cd project/
+cd p3/
+ls
+./c
+ls
+ls
+clear
+ls
+./c
+./c
+cd ..
+ls
+cd p2/
+ls
+vi temp_client.c 
+cd ../p3/
+ls
+vi tcpserver.c 
+vi tcpserver.c 
+gcc tcpserver.c 
+vi tcpserver.c 
+gcc tcpserver.c 
+vi tcpserver.c 
+vi tcpclient.c 
+clear
+ls
+vi tcpserver.c 
+gcc tcpserver.c 
+ls
+vi tcpserver.c 
+gcc tcpserver.c 
+ls
+clear
+ls
+vi tcpclient.c 
+vu tcpserver.c 
+vi tcpserver.c 
+clear
+ls
+gcc tcpclient.c -o c
+gcc tcpserver.c -o s
+clear
+ls
+clear
+ls
+vi tcpserver.c 
+gcc tcpserver.c -o s
+vi tcpclient.c 
+gcc tcpclient.c -o c
+clear
+./c
+vi tcpserver.c 
+clear
+ls
+gcc tcpserver.c -o s
+gcc tcpserver.c -o s
+gcc tcpserver.c -o s
+clear
+./s
+clear
+./c
+./c
+./c
+clear
+ls
+./c
+clear
+vi tcpclient.c 
+gcc tcpclient.c -o c
+./c
+cd p3
+ls
+cd lab17
+ls
+vi select_server.c 
+gcc select_server.c -o ss
+ls
+clear
+ls
+ls
+clear
+ls
+cd lab17
+ls
+man
+man 3 fd_zero
+man 2 fd_zero
+clear
+ls
+man
+man 2 wait
+clear
+ls
+vi select_client.c 
+ls
+gcc select_client.c -o c
+clear
+vi select_client.c 
+
+vi select_client.c 
+clear
+gcc select_client.c -o c
+ls
+vi select_server.c 
+vi select_server.c 
+vi select_client.c 
+gcc select_client.c 
+vi select_client.c 
+gcc select_client.c 
+clear
+gcc select_client.c 
+vi select_client.c 
+gcc select_client.c 
+clear
+gcc select_client.c 
+man 2 read
+vi select_client.c 
+gcc select_client.c 
+clear
+ls
+vi select_client.c 
+s
+ls
+clear
+ls
+ls
+clear
+ls
+gcc select_server.c -o ss
+gcc select_client.c -o sc
+vi select_client.c 
+gcc select_client.c -o sc
+clear
+ls
+clear
+ls
+./ss
+vi select_client.c 
+ls
+./sc
+clear
+ls
+./sc
+ls
+l
+cd project/
+ls
+cd p3/
+ls
+vi tcpclient.c 
+clear
+cd ..
+cd lab17
+ls
+cd ..
+cd lab17
+ls
+vi select_client.c 
+vi select_server.c 
+./ss
+clear
+ls
+clear
+ls
+cd lab17
+ls
+vi select_client.c 
+ls
+ls -al
+rm -rf *.swp
+ls
+ll
+rm *.swp
+rm .select_client.c.swp 
+rm .select_server.c.swp 
+ls
+clear
+ll
+ls
+vi select_server.c 
+vi select_client.c 
+clear
+ls
+vi select_client.c 
+./sc
+ls
+clear
+ls
+ls
+vi select_client.c 
+ls
+vi select_server.c 
+gcc select_server.c -o ss
+./ss
+vi select_server.c 
+gcc select_server.c -o sc
+./sc
+clear
+ls
+clear
+ls
+./sc
+./sc
+./sc
+./sc
+./sc
+./sc
+./sc
+./sc
+./ss
+./ss
+cd lab17
+ls
+clear
+ls
+wls
+lls
+ls
+./ss
+clear
+./sc
+clear
+./sc
 claer
+clear
+./sc
+clear
+ls
+vi select_client.c 
+clear
+./sc
+clear
+ls
+ls
+cd lab17/
 ls
 clear
 ls
-./s
+./sc
 ls
 clear
 ls
+cd lab17/
+ls
+./sc
+ls
+vi select_client.c 
+ls
+clear
+ls
+cd lab17/
+ls
+./ss
+vi select_server.c 
+ls
+clear
+ls
+ls
+cd project/
+cd p3/
+ls
+ls
+clear
+ls
+cd ..
+ls
+cd ~
+ls
+exit 
+#1545047403
+cd 
+#1545047403
+ls
+#1545047412
+ls -al
+#1545047427
+vi test.c 
+#1545047439
+users
+clear
+ls
+ls
+w
+clear
+ls
+w
+w
+wall hello
+ls
+showlab lab17
+showlab project3
+showlab tcp_project
+clear
+aw
+w
+w
+cler
+w

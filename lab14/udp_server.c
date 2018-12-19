@@ -33,12 +33,20 @@ int main() {
 	clen = sizeof(client_addr);
 	
 	// udp data 수신
-	recvfrom(ssock, (void*)buf, MAXBUF, 0, (struct sockaddr*)&client_addr, &clen);
+	while(1){
 
-	strcpy(buf, "I miss you");
+		recvfrom(ssock, (void*)buf, MAXBUF, 0, (struct sockaddr*)&client_addr, &clen);
+		if(strcmp(buf,"exit")==0){
+			char * byemsg = "bye bye!";
+			sendto(ssock,(void*) byemsg, MAXBUF, 0, (struct sockaddr*)&client_addr, sizeof(client_addr));
+			close(ssock);
+			return 0;
+		}
+		strcpy(buf, "I miss you");
 
-	// udp data 전송
-	sendto(ssock,(void*) buf, MAXBUF, 0, (struct sockaddr*)&client_addr, sizeof(client_addr));
+		// udp data 전송
+		sendto(ssock,(void*) buf, MAXBUF, 0, (struct sockaddr*)&client_addr, sizeof(client_addr));
+	}
 	close(ssock);
 	return 0;
 }
